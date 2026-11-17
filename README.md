@@ -5,6 +5,16 @@ Network inspector for Android Studio: OkHttp and Ktor, REST, GraphQL and WebSock
 Inspect REST, GraphQL and WebSocket traffic from OkHttp (Retrofit, Apollo) and Ktor apps in a
 **Peephole** tool window. Traffic goes over an adb-forwarded socket, never through logcat.
 
+![Calls list with a formatted, foldable JSON response](docs/screenshots/1-response.png)
+
+| GraphQL | WebSocket |
+|---|---|
+| ![GraphQL tab with the formatted query and its variables](docs/screenshots/2-graphql.png) | ![WebSocket messages with sent and received frames](docs/screenshots/3-websocket.png) |
+
+| Overview | Copy anything |
+|---|---|
+| ![Overview of a call: URL, status, protocol, timing and sizes](docs/screenshots/4-overview.png) | ![Context menu: Copy as cURL, URL, Request, Response, Response Body](docs/screenshots/5-copy-menu.png) |
+
 ## Install the IDE plugin
 Install **Peephole** from Settings → Plugins → Marketplace, or build it yourself:
 ```
