@@ -1,6 +1,6 @@
 plugins {
     alias(libs.plugins.android.library)
-    `maven-publish`
+    alias(libs.plugins.vanniktech.publish)
 }
 
 android {
@@ -18,7 +18,6 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
     testOptions { unitTests.isReturnDefaultValues = true }
-    publishing { singleVariant("release") { withSourcesJar() } }
 }
 
 dependencies {
@@ -27,13 +26,10 @@ dependencies {
     testImplementation(libs.kotlin.test)
 }
 
-afterEvaluate {
-    publishing {
-        publications {
-            create<MavenPublication>("release") {
-                from(components["release"])
-                artifactId = "peephole-core"
-            }
-        }
+mavenPublishing {
+    coordinates(artifactId = "peephole-core")
+    pom {
+        name.set("Peephole Core")
+        description.set("Capture engine and adb socket server for the Peephole Android Studio network inspector.")
     }
 }

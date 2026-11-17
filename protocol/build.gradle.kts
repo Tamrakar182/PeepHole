@@ -2,13 +2,12 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
     alias(libs.plugins.kotlin.jvm)
-    `maven-publish`
+    alias(libs.plugins.vanniktech.publish)
 }
 
 java {
     sourceCompatibility = JavaVersion.VERSION_11
     targetCompatibility = JavaVersion.VERSION_11
-    withSourcesJar()
 }
 
 kotlin {
@@ -22,11 +21,10 @@ dependencies {
     testImplementation(libs.kotlin.test)
 }
 
-publishing {
-    publications {
-        create<MavenPublication>("maven") {
-            from(components["java"])
-            artifactId = "peephole-protocol"
-        }
+mavenPublishing {
+    coordinates(artifactId = "peephole-protocol")
+    pom {
+        name.set("Peephole Protocol")
+        description.set("Wire protocol shared by the Peephole Android libraries and the Peephole IDE plugin.")
     }
 }

@@ -6,16 +6,16 @@ Inspect REST, GraphQL and WebSocket traffic from OkHttp (Retrofit, Apollo) and K
 **Peephole** tool window. Traffic goes over an adb-forwarded socket, never through logcat.
 
 ## Install the IDE plugin
+Install **Peephole** from Settings → Plugins → Marketplace, or build it yourself:
 ```
 ./gradlew :plugin:buildPlugin
 ```
-Then go to Settings → Plugins → ⚙ → **Install Plugin from Disk…** and pick `plugin/build/distributions/peephole-0.1.0.zip`.
+and go to Settings → Plugins → ⚙ → **Install Plugin from Disk…** and pick `plugin/build/distributions/peephole-0.1.0.zip`.
 Supports Android Studio 2025.3+. To try it in a sandbox IDE instead, run `./gradlew :plugin:runIde`.
 
 ## Add the library to your app
-Publish the libraries locally with `./gradlew publishToMavenLocal`, then:
+The libraries are on Maven Central:
 ```kotlin
-repositories { mavenLocal() }
 dependencies {
     debugImplementation("np.com.manjultamrakar:peephole-okhttp:0.1.0")
     releaseImplementation("np.com.manjultamrakar:peephole-okhttp-noop:0.1.0")
@@ -59,6 +59,13 @@ Copy as cURL, Copy Request / Copy Response (start line, headers and body), and E
 ## Sample
 `sample/` exercises every feature. To run all demos automatically:
 `adb shell am start -n np.com.manjultamrakar.peephole.sample/.MainActivity --ez autorun true`
+
+## Releasing
+1. Bump `peepholeVersion` in `gradle.properties` and add a section on top of `changeNotes` in `plugin/build.gradle.kts`.
+2. Libraries: `./gradlew publishToMavenCentral`, then press **Publish** on the deployment at central.sonatype.com
+   (or run `publishAndReleaseToMavenCentral` to release in one step). Needs `mavenCentralUsername`,
+   `mavenCentralPassword`, `signingInMemoryKey` and `signingInMemoryKeyPassword` in `~/.gradle/gradle.properties`.
+3. IDE plugin: `JETBRAINS_MARKETPLACE_TOKEN=… ./gradlew :plugin:publishPlugin`.
 
 ## License
 MIT. See [LICENSE](LICENSE).

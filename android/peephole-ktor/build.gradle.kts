@@ -1,6 +1,6 @@
 plugins {
     alias(libs.plugins.android.library)
-    `maven-publish`
+    alias(libs.plugins.vanniktech.publish)
 }
 
 android {
@@ -12,7 +12,6 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
     testOptions { unitTests.isReturnDefaultValues = true }
-    publishing { singleVariant("release") { withSourcesJar() } }
 }
 
 dependencies {
@@ -25,13 +24,10 @@ dependencies {
     testImplementation(libs.okhttp5.mockwebserver)
 }
 
-afterEvaluate {
-    publishing {
-        publications {
-            create<MavenPublication>("release") {
-                from(components["release"])
-                artifactId = "peephole-ktor"
-            }
-        }
+mavenPublishing {
+    coordinates(artifactId = "peephole-ktor")
+    pom {
+        name.set("Peephole Ktor")
+        description.set("Ktor client plugin that streams REST, GraphQL and WebSocket traffic to the Peephole Android Studio plugin.")
     }
 }

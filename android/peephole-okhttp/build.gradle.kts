@@ -1,6 +1,6 @@
 plugins {
     alias(libs.plugins.android.library)
-    `maven-publish`
+    alias(libs.plugins.vanniktech.publish)
 }
 
 android {
@@ -12,7 +12,6 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
     testOptions { unitTests.isReturnDefaultValues = true }
-    publishing { singleVariant("release") { withSourcesJar() } }
 }
 
 dependencies {
@@ -23,14 +22,11 @@ dependencies {
     testImplementation(libs.okhttp.mockwebserver)
 }
 
-afterEvaluate {
-    publishing {
-        publications {
-            create<MavenPublication>("release") {
-                from(components["release"])
-                artifactId = "peephole-okhttp"
-            }
-        }
+mavenPublishing {
+    coordinates(artifactId = "peephole-okhttp")
+    pom {
+        name.set("Peephole OkHttp")
+        description.set("OkHttp interceptor and WebSocket factory that stream REST, GraphQL and WebSocket traffic to the Peephole Android Studio plugin.")
     }
 }
 

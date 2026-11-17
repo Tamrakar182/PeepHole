@@ -40,6 +40,10 @@ configurations.named("runtimeClasspath") {
 
 intellijPlatform {
     buildSearchableOptions = false
+    // ./gradlew :plugin:publishPlugin  (token from https://plugins.jetbrains.com/author/me/tokens)
+    publishing {
+        token = providers.environmentVariable("JETBRAINS_MARKETPLACE_TOKEN")
+    }
     instrumentCode = false
     pluginConfiguration {
         id = "np.com.manjultamrakar.peephole"

@@ -1,6 +1,6 @@
 plugins {
     alias(libs.plugins.android.library)
-    `maven-publish`
+    alias(libs.plugins.vanniktech.publish)
 }
 
 android {
@@ -11,7 +11,6 @@ android {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
-    publishing { singleVariant("release") { withSourcesJar() } }
 }
 
 dependencies {
@@ -19,13 +18,10 @@ dependencies {
     api(libs.ktor.client.core)
 }
 
-afterEvaluate {
-    publishing {
-        publications {
-            create<MavenPublication>("release") {
-                from(components["release"])
-                artifactId = "peephole-ktor-noop"
-            }
-        }
+mavenPublishing {
+    coordinates(artifactId = "peephole-ktor-noop")
+    pom {
+        name.set("Peephole Ktor (no-op)")
+        description.set("No-op Peephole Ktor integration for release builds.")
     }
 }
