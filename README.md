@@ -1,5 +1,14 @@
 # Peephole
 
+[![Maven Central](https://img.shields.io/maven-central/v/np.com.manjultamrakar/peephole-okhttp?label=Maven%20Central&logo=apachemaven)](https://central.sonatype.com/namespace/np.com.manjultamrakar)
+[![JetBrains Marketplace](https://img.shields.io/jetbrains/plugin/v/36219?label=JetBrains%20Marketplace&logo=jetbrains)](https://plugins.jetbrains.com/plugin/36219-peephole)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/36219?label=Downloads&logo=androidstudio)](https://plugins.jetbrains.com/plugin/36219-peephole)
+[![Android Studio](https://img.shields.io/badge/Android%20Studio-2025.3%2B-3DDC84?logo=androidstudio&logoColor=white)](https://plugins.jetbrains.com/plugin/36219-peephole)
+[![Min SDK](https://img.shields.io/badge/minSdk-21-3DDC84?logo=android&logoColor=white)](#add-the-library-to-your-app)
+[![OkHttp](https://img.shields.io/badge/OkHttp-4.12%20%7C%205.x-blue)](#add-the-library-to-your-app)
+[![Ktor](https://img.shields.io/badge/Ktor-3.x-087CFA?logo=ktor&logoColor=white)](#add-the-library-to-your-app)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Network inspector for Android Studio: OkHttp and Ktor, REST, GraphQL and WebSocket.
 
 Inspect REST, GraphQL and WebSocket traffic from OkHttp (Retrofit, Apollo) and Ktor apps in a
