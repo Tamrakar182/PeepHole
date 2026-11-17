@@ -1,0 +1,73 @@
+<idea-plugin>
+    <id>np.com.manjultamrakar.peephole</id>
+    <name>Peephole</name>
+    <vendor url="https://manjultamrakar.com.np">Manjul Tamrakar</vendor>
+
+    <description><![CDATA[
+    See your Android app's network traffic live, in its own tool window, not in logcat.
+    Works with OkHttp (including Retrofit and Apollo Kotlin) and Ktor.
+
+    <h3>Features</h3>
+    <ul>
+      <li><b>REST</b>: method, URL, status, timing, size, headers and bodies.</li>
+      <li><b>GraphQL</b>: queries, mutations and subscriptions are detected and listed by operation name,
+          with a GraphQL tab showing the formatted query and its variables.</li>
+      <li><b>WebSocket</b>: every sent and received message per connection, including GraphQL-over-WebSocket
+          and SignalR (record-separated JSON is split and formatted).</li>
+      <li><b>Readable bodies</b>: JSON and GraphQL are pretty-printed and syntax-highlighted, with collapsible blocks
+          and Expand All / Collapse All.</li>
+      <li><b>Copy anything</b>: the body, the full request or response (start line, headers and body), the URL,
+          or the request as a cURL command.</li>
+      <li><b>Multiple devices and apps</b>: pick any connected device and any running process that uses the library.</li>
+      <li><b>Filters</b> by type (REST / GraphQL / WebSocket), status and text; pause recording; clear;
+          follow new calls automatically.</li>
+      <li><b>Export to HAR</b> to open the capture in Chrome DevTools, Charles or Proxyman.</li>
+      <li><b>Production-safe</b>: no-op artifacts for release builds, and header redaction (e.g. Authorization).</li>
+      <li><b>Logcat stays clean</b>: traffic travels over a dedicated adb-forwarded socket.</li>
+    </ul>
+
+    <h3>Getting started</h3>
+    <ol>
+      <li>Add the libraries to your app's <code>build.gradle.kts</code>:
+<pre>
+debugImplementation("np.com.manjultamrakar:peephole-okhttp:0.1.0")
+releaseImplementation("np.com.manjultamrakar:peephole-okhttp-noop:0.1.0")
+
+// Ktor:
+debugImplementation("np.com.manjultamrakar:peephole-ktor:0.1.0")
+releaseImplementation("np.com.manjultamrakar:peephole-ktor-noop:0.1.0")
+</pre></li>
+      <li>Hook up your client:
+<pre>
+// OkHttp / Retrofit / Apollo
+OkHttpClient.Builder().addInterceptor(PeepholeInterceptor()).build()
+// OkHttp WebSockets
+PeepholeWebSocketFactory(client).newWebSocket(request, listener)
+
+// Ktor
+HttpClient(CIO) { install(PeepholePlugin) }
+</pre>
+          The library starts by itself; no <code>Application</code> code is needed.
+          If you use Ktor with the OkHttp engine, install only <code>PeepholePlugin</code>.</li>
+      <li>Run a debug build on a device or emulator connected over adb.</li>
+      <li>Open <b>View | Tool Windows | Peephole</b>, choose the <b>Device</b> and the <b>App</b> at the top,
+          and make some requests. Calls appear as they happen.</li>
+    </ol>
+    Options such as body size limits and header redaction live in <code>Peephole.init(context, PeepholeConfig(...))</code>;
+    the adb path is under <b>Settings | Tools | Peephole</b>.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="Peephole"
+                    anchor="bottom"
+                    icon="/icons/peephole.svg"
+                    factoryClass="np.com.manjultamrakar.peephole.ide.ui.InspectorToolWindowFactory"/>
+        <applicationConfigurable parentId="tools"
+                                 instance="np.com.manjultamrakar.peephole.ide.settings.InspectorConfigurable"
+                                 id="np.com.manjultamrakar.peephole.settings"
+                                 displayName="Peephole"/>
+        <notificationGroup id="Peephole" displayType="BALLOON"/>
+    </extensions>
+</idea-plugin>

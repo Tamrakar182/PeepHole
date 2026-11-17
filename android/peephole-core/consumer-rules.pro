@@ -1,0 +1,1 @@
+-keep class np.com.manjultamrakar.peephole.core.InspectorInitProvider

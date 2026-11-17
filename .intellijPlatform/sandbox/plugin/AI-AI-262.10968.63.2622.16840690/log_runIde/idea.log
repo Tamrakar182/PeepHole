@@ -1,0 +1,695 @@
+2026-11-17 15:03:12,474 [     16]   INFO - #c.i.p.i.b.AppStarter - ------------------------------------------------------ IDE STARTED ------------------------------------------------------
+2026-11-17 15:03:12,482 [     24]   INFO - #c.i.p.i.b.AppStarter - skipping shell environment: the IDE is likely launched from a terminal (SHLVL=2)
+2026-11-17 15:03:12,482 [     24]   INFO - #c.i.p.i.b.AppStarter - Will skip the config import to directory "/Users/tamrakar/Desktop/OkHttp Inspector/.intellijPlatform/sandbox/plugin/AI-AI-262.10968.63.2622.16840690/config_runIde" (exists = true). Current entries: "options", "disabled_plugins.txt".
+2026-11-17 15:03:12,485 [     27]   WARN - #c.i.i.p.PluginManager - Dist index is missing or corrupted; an OLD, DEPRECATED, SOON-TO-BE-REMOVED implementation will be used
+2026-11-17 15:03:12,636 [    178]   INFO - #c.i.p.i.b.AppStarter - JNA library (64-bit) loaded in 157 ms
+2026-11-17 15:03:12,647 [    189]   INFO - #c.i.p.i.b.AppStarter - IDE: Android Studio (build #AI-262.10968.63.2622.16840690, Thu, 5 Nov 2026 07:50:00 GMT)
+2026-11-17 15:03:12,647 [    189]   INFO - #c.i.p.i.b.AppStarter - OS: macOS (27.2.1)
+2026-11-17 15:03:12,647 [    189]   INFO - #c.i.p.i.b.AppStarter - JRE: 25.0.4+-16339643-b508.27, aarch64 (JetBrains s.r.o.)
+2026-11-17 15:03:12,648 [    190]   INFO - #c.i.p.i.b.AppStarter - JVM: 25.0.4+-16339643-b508.27 (OpenJDK 64-Bit Server VM)
+2026-11-17 15:03:12,648 [    190]   INFO - #c.i.p.i.b.AppStarter - PID: 70647
+2026-11-17 15:03:12,648 [    190]   INFO - #c.i.p.i.b.AppStarter - Timezone: Asia/Kathmandu (+05:45)
+2026-11-17 15:03:12,701 [    243]   INFO - #c.i.p.i.b.AppStarter - JVM options: [-Daether.connector.resumeDownloads=false, -Dapple.awt.application.appearance=system, -Dapple.awt.fileDialogForDirectories=true, -Dapple.laf.useScreenMenuBar=true, -Dcompose.swing.render.on.graphics=true, -Dflags.configuration.level=COMPLETE, -Dflags.debug.enabled=false, -Dide.native.launcher=false, -Dide.no.platform.update=false, -Didea.auto.reload.plugins=true, -Didea.classpath.index.enabled=false, -Didea.config.path=/Users/tamrakar/Desktop/OkHttp Inspector/.intellijPlatform/sandbox/plugin/AI-AI-262.10968.63.2622.16840690/config_runIde, -Didea.is.internal=true, -Didea.log.path=/Users/tamrakar/Desktop/OkHttp Inspector/.intellijPlatform/sandbox/plugin/AI-AI-262.10968.63.2622.16840690/log_runIde, -Didea.paths.selector=AndroidStudio2026.2.2, -Didea.platform.prefix=AndroidStudio, -Didea.plugin.in.sandbox.mode=true, -Didea.plugins.path=/Users/tamrakar/Desktop/OkHttp Inspector/.intellijPlatform/sandbox/plugin/AI-AI-262.10968.63.2622.16840690/plugins_runIde, -Didea.required.plugins.id=io.github.okhttpinspector, -Didea.reset.classpath.from.manifest=true, -Didea.smooth.progress=false, -Didea.system.path=/Users/tamrakar/Desktop/OkHttp Inspector/.intellijPlatform/sandbox/plugin/AI-AI-262.10968.63.2622.16840690/system_runIde, -Didea.vendor.name=Google, -Dij.startup.error.handler.class=com.intellij.platform.ide.bootstrap.StudioStartupErrorHandler, -Dintellij.console.log.level=warning, -Dintellij.platform.runtime.repository.path=/Applications/Android Studio.app/Contents/modules/module-descriptors.dat, -Dio.netty.allocator.type=pooled, -Djava.nio.file.spi.DefaultFileSystemProvider=com.intellij.platform.core.nio.fs.MultiRoutingFileSystemProvider, -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader, -Djava.util.zip.use.nio.for.zip.file.access=true, -Djbr.catch.SIGABRT=true, -Djdk.attach.allowAttachSelf=true, -Djdk.http.auth.tunneling.disabledSchemes="", -Djdk.module.illegalAccess.silent=true, -Djdk.nio.maxCachedBufferSize=2097152, -Djna.boot.library.path=/Applications/Android Studio.app/Contents/lib/jna/aarch64, -Djna.noclasspath=true, -Djna.nosys=true, -Dplugin.path=/Users/tamrakar/Desktop/OkHttp Inspector/.intellijPlatform/sandbox/plugin/AI-AI-262.10968.63.2622.16840690/plugins_runIde/plugin, -Dpty4j.preferred.native.folder=/Applications/Android Studio.app/Contents/lib/pty4j, -Dskiko.library.path=/Applications/Android Studio.app/Contents/lib/skiko-awt-runtime-all, -Dskiko.rendering.useScreenMenuBar=false, -Dsplash=true, -Dsun.io.useCanonCaches=false, -Dsun.java2d.metal=true, -XX:JbrShrinkingGcMaxHeapFreeRatio=40, -XX:ReservedCodeCacheSize=512m, -XX:+HeapDumpOnOutOfMemoryError, -XX:-OmitStackTraceInFastThrow, -XX:CICompilerCount=2, -XX:+IgnoreUnrecognizedVMOptions, -XX:+UnlockDiagnosticVMOptions, -XX:TieredOldPercentage=100000, -XX:+UseCompactObjectHeaders, --sun-misc-unsafe-memory-access=allow, -Xbootclasspath/a:/Applications/Android Studio.app/Contents/lib/nio-fs.jar, -XX:FlightRecorderOptions=stackdepth=256, --add-opens=java.base/sun.net.www.protocol.https=ALL-UNNAMED, --enable-native-access=ALL-UNNAMED, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.ref=ALL-UNNAMED, --add-opens=java.base/java.lang.reflect=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.text=ALL-UNNAMED, --add-opens=java.base/java.time=ALL-UNNAMED, --add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.locks=ALL-UNNAMED, --add-opens=java.base/jdk.internal.ref=ALL-UNNAMED, --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED, --add-opens=java.base/sun.net.dns=ALL-UNNAMED, --add-opens=java.base/sun.nio=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.base/sun.nio.fs=ALL-UNNAMED, --add-opens=java.base/sun.security.ssl=ALL-UNNAMED, --add-opens=java.base/sun.security.util=ALL-UNNAMED, --add-opens=java.desktop/com.apple.eawt=ALL-UNNAMED, --add-opens=java.desktop/com.apple.eawt.event=ALL-UNNAMED, --add-opens=java.desktop/com.apple.laf=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing=ALL-UNNAMED, --add-opens=java.desktop/java.awt=ALL-UNNAMED, --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/java.awt.font=ALL-UNNAMED, --add-opens=java.desktop/java.awt.image=ALL-UNNAMED, --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text.html.parser=ALL-UNNAMED, --add-opens=java.desktop/sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED, --add-opens=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.java2d=ALL-UNNAMED, --add-opens=java.desktop/sun.lwawt=ALL-UNNAMED, --add-opens=java.desktop/sun.lwawt.macosx=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/sun.swing.text=ALL-UNNAMED, --add-opens=java.management/sun.management=ALL-UNNAMED, --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED, --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED, --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED, --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED, -Xms256m, -Xmx2048m, -Dfile.encoding=UTF-8, -Duser.country=NP, -Duser.language=en, -Duser.variant, -ea]
+2026-11-17 15:03:12,702 [    244]   INFO - #c.i.p.i.b.AppStarter - args: 
+2026-11-17 15:03:12,702 [    244]   INFO - #c.i.p.i.b.AppStarter - library path: /Users/tamrakar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2026-11-17 15:03:12,702 [    244]   INFO - #c.i.p.i.b.AppStarter - boot library path: /Applications/Android Studio.app/Contents/jbr/Contents/Home/lib
+2026-11-17 15:03:12,702 [    244]   INFO - #c.i.p.i.b.AppStarter - locale=en_NP JNU=UTF-8 file.encoding=UTF-8
+    idea.home.path=/Applications/Android Studio.app/Contents
+    idea.config.path=/Users/tamrakar/Desktop/OkHttp Inspector/.intellijPlatform/sandbox/plugin/AI-AI-262.10968.63.2622.16840690/config_runIde
+    idea.system.path=/Users/tamrakar/Desktop/OkHttp Inspector/.intellijPlatform/sandbox/plugin/AI-AI-262.10968.63.2622.16840690/system_runIde
+    idea.plugins.path=/Users/tamrakar/Desktop/OkHttp Inspector/.intellijPlatform/sandbox/plugin/AI-AI-262.10968.63.2622.16840690/plugins_runIde
+    idea.log.path=/Users/tamrakar/Desktop/OkHttp Inspector/.intellijPlatform/sandbox/plugin/AI-AI-262.10968.63.2622.16840690/log_runIde
+2026-11-17 15:03:12,702 [    244]   INFO - #c.i.p.i.b.AppStarter - CPU cores: 10; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@31443f98[Running, parallelism = 9, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@3199a3d7
+2026-11-17 15:03:13,289 [    831]   INFO - #c.i.i.p.PluginManager - Ignoring cached broken plugins file from an earlier IDE build (AI-262.10968.63.__BUILD_NUMBER__)
+2026-11-17 15:03:13,336 [    878]   WARN - #c.i.i.p.PluginManager - Environment-configured module is not found: intellij.rd.client
+2026-11-17 15:03:13,336 [    878]   WARN - #c.i.i.p.PluginManager - Environment-configured module is not found: intellij.platform.split
+2026-11-17 15:03:13,513 [   1055]   INFO - #c.i.i.p.PluginManager - Plugin set resolution:
+plugin XPathView is not resolved
+  └ dependent module intellij.xml.langInjection.xpath excluded
+module intellij.maven.model (namespace=jetbrains) is not resolved
+  └ dependent module intellij.repository.search.common excluded
+module intellij.maven (namespace=jetbrains) is not resolved
+  └ dependent module intellij.gradle.java.performance, module intellij.kotlin.projectWizard.maven, module intellij.kotlin.compilerReferenceIndex, module intellij.kotlin.compilerPlugins.support.maven, module intellij.kotlin.compilerPlugins.allopen.maven, module intellij.kotlin.compilerPlugins.noarg.maven, module intellij.kotlin.compilerPlugins.samWithReceiver.maven, module intellij.kotlin.compilerPlugins.serialization.maven, module intellij.kotlin.compilerPlugins.dataframe.maven, module intellij.kotlin.compilerPlugins.lombok.maven, module intellij.kotlin.compilerPlugins.assignment.maven excluded
+  └ dependent module intellij.kotlin.maven excluded
+    └ dependent module intellij.kotlin.onboarding.maven excluded
+plugin com.intellij.modules.jcef is not resolved
+  └ dependent module intellij.markdown.jcef, module intellij.platform.images.jcef excluded
+plugin com.intellij.modules.python is not resolved
+  └ dependent module intellij.sh.python excluded
+plugin training is not resolved
+  └ dependent module intellij.java.featuresTrainer, module intellij.kotlin.featuresTrainer, module intellij.java.ide.customization.training excluded
+plugin com.intellij.modules.idea.community is not resolved
+  └ dependent module intellij.java.promo excluded
+module intellij.libraries.jcef (namespace=jetbrains) is not resolved
+  └ dependent module intellij.performanceTesting.remoteDriver.jcef, module intellij.mermaid.markdown (namespace=com.intellij.mermaid_$implicit) excluded
+plugin com.intellij.modules.idea is not resolved
+  └ dependent <depends> config 'android-plugin-idea.xml' of plugin org.jetbrains.android excluded
+plugin AntSupport is not resolved
+  └ dependent module intellij.groovy.ant excluded
+plugin ByteCodeViewer is not resolved
+  └ dependent module intellij.groovy.byteCodeViewer excluded
+plugin com.intellij.tasks is not resolved
+  └ dependent module intellij.vcs.github.tracker excluded
+2026-11-17 15:03:13,581 [   1123]   INFO - #c.i.p.i.b.AppStarter - Loaded bundled plugins: IDEA CORE (262.10968.63), Artifacts Repository Search (262.10968.63.2622.16840690), Git for App Insights (262.10968.63.2622.16840690), Java Bytecode Decompiler (262.10968.63.2622.16840690), Gradle for Java (262.10968.63.2622.16840690), GMD Code Completion (262.10968.63.2622.16840690), Clangd Support (262.10968.63.2622.16840690), Android SDK Upgrade Assistant (262.10968.63.2622.16840690), Toml (262.10968.63.2622.16840690), Recent Files (262.10968.63.2622.16840690), Code Coverage for Java (262.10968.63.2622.16840690), Modal Commit Interface (262.10968.63.2622.16840690), Device Streaming (262.10968.63.2622.16840690), Gemini (262.10968.63.2622.16840690), Structure View (262.10968.63.2622.16840690), Lightbuild AI Plugin (262.10968.63.2622.16840690), HTML Tools (262.10968.63.2622.16840690), Library Modules: Misc (262.10968.63.2622.16840690), JUnit (262.10968.63.2622.16840690), Mercurial (262.10968.63.2622.16840690), Aether Dependency Resolver (262.10968.63.2622.16840690), Markdown (262.10968.63.2622.16840690), Java Internationalization (262.10968.63.2622.16840690), TestNG (262.10968.63.2622.16840690), Eclipse Keymap (262.10968.63.2622.16840690), GitLab (262.10968.63.2622.16840690), Shell Script (262.10968.63.2622.16840690), Gradle (262.10968.63.2622.16840690), Terminal (262.10968.63.2622.16840690), Java (262.10968.63.2622.16840690), Kotlin (262.10968.63.2622.16840690-AS), Navbar (262.10968.63.2622.16840690), WebP (262.10968.63.2622.16840690), Agent Client Protocol (262.10968.63.2622.16840690), Machine Learning Code Completion (262.10968.63.2622.16840690), Images (262.10968.63.2622.16840690), Performance Testing (262.10968.63.2622.16840690), NetBeans Keymap (262.10968.63.2622.16840690), CIDR Debugger (262.10968.63.2622.16840690), TODO Comments (262.10968.63.2622.16840690), Gradle Declarative Support (262.10968.63.2622.16840690), Firebase Services (262.10968.63.2622.16840690), JSON (262.10968.63.2622.16840690), Visual Studio Keymap (262.10968.63.2622.16840690), Properties (262.10968.63.2622.16840690), Test Recorder (262.10968.63.2622.16840690), TextMate Bundles (262.10968.63.2622.16840690), Test Runner (262.10968.63.2622.16840690), Android NDK Support (262.10968.63.2622.16840690), Android (262.10968.63.2622.16840690), Groovy Live Templates (262.10968.63.2622.16840690), App Links Assistant AI (262.10968.63.2622.16840690), YAML (262.10968.63.2622.16840690), Natural Languages (262.10968.63.2622.16840690), Android Design Tools (262.10968.63.2622.16840690), Lightbuild (262.10968.63.2622.16840690), DevKit Runtime (262.10968.63.2622.16840690), Mermaid (262.10968.63.2622.16840690), Bookmarks Manager (262.10968.63.2622.16840690), Copyright (262.10968.63.2622.16840690), EditorConfig (262.10968.63.2622.16840690), Compose Multiplatform (262.10968.63.2622.16840690), Groovy (262.10968.63.2622.16840690), CIDR Base (262.10968.63.2622.16840690), Grid Core (262.10968.63.2622.16840690), Structural Search (262.10968.63.2622.16840690), Android APK Support (262.10968.63.2622.16840690), App Links Assistant (262.10968.63.2622.16840690), Java IDE Customization (262.10968.63.2622.16840690), C/C++ Language Support via Classic Engine (262.10968.63.2622.16840690), Smali Support (262.10968.63.2622.16840690), Jetpack Compose (262.10968.63.2622.16840690), Configuration Script (262.10968.63.2622.16840690), GitHub (262.10968.63.2622.16840690), Gradle DSL Parser Support (262.10968.63.2622.16840690), Git (262.10968.63.2622.16840690), Groovy Scripting (262.10968.63.2622.16840690), Services View (262.10968.63.2622.16840690)
+2026-11-17 15:03:13,582 [   1124]   INFO - #c.i.p.i.b.AppStarter - Loaded custom plugins: Network Inspector (OkHttp & Ktor) (0.1.0)
+2026-11-17 15:03:14,430 [   1972]   WARN - #c.i.p.instanceContainer - InstanceNotOverridableException: Incorrect override for com.intellij.openapi.project.impl.ProjectStoreFactory: com.intellij.configurationScript.providers.ConfigurationScriptProjectStoreFactory overrides com.intellij.configurationStore.PlatformLangProjectStoreFactory even though the existing implementation is not overridable (not declared as 'open=true')
+2026-11-17 15:03:14,445 [   1987]   WARN - #c.i.p.instanceContainer - InstanceNotOverridableException: Incorrect override for com.intellij.openapi.application.IdeUrlTrackingParametersProvider: com.intellij.openapi.application.IdeUrlTrackingParametersProvider overrides com.intellij.ide.customization.UtmIdeUrlTrackingParametersProvider even though the existing implementation is not overridable (not declared as 'open=true')
+2026-11-17 15:03:14,764 [   2306]   INFO - #c.i.u.i.PageCacheUtils - File page caching params:
+	DEFAULT_PAGE_SIZE: 10485760
+	Direct memory to use, max: 2126512128
+	FilePageCache: regular
+	Regular FilePageCache: 629145600 bytes
+	DirectByteBuffers pool: 104857600 bytes
+2026-11-17 15:03:14,813 [   2355]   INFO - #c.i.a.o.PathMacrosImpl - Loaded path macros: {}
+2026-11-17 15:03:14,813 [   2355]   INFO - #c.i.p.e.n.i.EelMultiRoutingFileSystemBackendInitializationService - Eel MultiRoutingFileSystem backend is initialized
+2026-11-17 15:03:14,882 [   2424]   INFO - c.i.o.u.r.overrides - Plugin org.jetbrains.android overrides the registry key debugger.preload.types.hierarchy declared by plugin com.intellij.java (intellij.java.debugger.impl.xml).
+2026-11-17 15:03:14,882 [   2424]   INFO - c.i.o.u.r.overrides - Plugin org.jetbrains.android overrides the registry key debugger.emulate.method.breakpoints declared by plugin com.intellij.java (intellij.java.debugger.impl.xml).
+2026-11-17 15:03:14,882 [   2424]   INFO - c.i.o.u.r.overrides - Plugin org.jetbrains.android (project-system-gradle-plugin-androidstudio.xml) overrides the registry key unknown.sdk declared by plugin com.intellij.
+2026-11-17 15:03:14,882 [   2424]   INFO - c.i.o.u.r.overrides - Plugin org.jetbrains.android (project-system-gradle-plugin-androidstudio.xml) overrides the registry key unknown.sdk.auto declared by plugin com.intellij.
+2026-11-17 15:03:14,883 [   2425]   INFO - c.i.o.u.r.overrides - Plugin org.jetbrains.android (project-system-gradle-plugin-androidstudio.xml) overrides the registry key unknown.sdk.modal.jps declared by plugin com.intellij.
+2026-11-17 15:03:14,883 [   2425]   INFO - c.i.o.u.r.overrides - Plugin org.jetbrains.android (project-system-gradle-plugin-androidstudio.xml) overrides the registry key unknown.sdk.show.editor.actions declared by plugin com.intellij.
+2026-11-17 15:03:14,883 [   2425]   INFO - c.i.o.u.r.overrides - Plugin org.jetbrains.android (project-system-gradle-plugin-androidstudio.xml) overrides the registry key gradle.phased.sync.enabled declared by plugin com.intellij.gradle (intellij.gradle.xml).
+2026-11-17 15:03:14,883 [   2425]   INFO - c.i.o.u.r.overrides - Plugin org.jetbrains.android (project-system-gradle-plugin-androidstudio.xml) overrides the registry key gradle.daemon.jvm.criteria.new.project declared by plugin com.intellij.gradle (intellij.gradle.xml).
+2026-11-17 15:03:14,883 [   2425]   INFO - c.i.o.u.r.overrides - Plugin org.jetbrains.android (project-system-gradle-plugin-androidstudio.xml) overrides the registry key gradle.daemon.jvm.criteria.suggest.migration declared by plugin org.jetbrains.kotlin (kotlin.gradle.gradle-java.xml).
+2026-11-17 15:03:14,883 [   2425]   INFO - c.i.o.u.r.overrides - Plugin org.jetbrains.android (android-plugin-androidstudio.xml) overrides the registry key platform.feedback declared by plugin com.intellij (intellij.platform.feedback.xml).
+2026-11-17 15:03:14,891 [   2433]   INFO - #c.i.o.v.n.i.VfsData - Use SoftReference in VFS cache: true
+2026-11-17 15:03:14,962 [   2504]   INFO - #c.i.l.LocalizationStateServiceImpl - [i18n] Localization property from registry is null
+2026-11-17 15:03:15,194 [   2736]   INFO - #c.i.i.p.ExpiredPluginsState - Marking plugins 'skipped': []
+2026-11-17 15:03:15,294 [   2836]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses names enumerator over mmapped file
+2026-11-17 15:03:15,296 [   2838]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses streamlined attributes storage (over mmapped file)
+2026-11-17 15:03:15,297 [   2839]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses OverMMappedFile(pageSize=67108864, acquireStorageOwnership=true) storage for main file records table
+2026-11-17 15:03:15,298 [   2840]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses content storage over memory-mapped file, with compression algo: LZ4[ > 8000b ]
+2026-11-17 15:03:15,516 [   3058]   INFO - #c.i.p.k.b.BackendKernelServiceKt - Backend started Kernel
+2026-11-17 15:03:15,755 [   3297]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS: impl (expected) version=65, 0 file records, 0 content blobs
+2026-11-17 15:03:15,800 [   3342]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS scanned: file-by-name index was populated
+2026-11-17 15:03:15,803 [   3345]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS initialized: 546 ms, 0 failed attempts, 0 error(s) were recovered
+2026-11-17 15:03:15,833 [   3375]   INFO - #c.i.o.u.LowMemoryWatcherManager - Use ExponentiallySmoothingTracker(90000 ms)
+2026-11-17 15:03:15,852 [   3394]   INFO - #c.i.o.u.LowMemoryWatcherManager - Subscribing to MemoryPool[G1 Old Gen]{max: 2147483648, threshold: 2040109440 (0.95 * max)}
+2026-11-17 15:03:15,853 [   3395]   INFO - #c.i.o.u.LowMemoryWatcherManager - Schedule GC-time updating: each 15000ms
+2026-11-17 15:03:15,857 [   3399]   INFO - #c.i.c.CompilerWorkspaceConfiguration - Available processors: 10
+2026-11-17 15:03:15,861 [   3403]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS.MAX_FILE_LENGTH_TO_CACHE: 1048576
+2026-11-17 15:03:15,862 [   3404]   INFO - #fleet.kernel.Transactor - Duration: 199.289250ms, change from: fleet.tracing.runtime.Span$Noop@6725675e
+2026-11-17 15:03:15,903 [   3445]   INFO - #c.i.h.u.LocalHistoryLog - local history version mismatch (was: 0, expected: 7), rebuilding...
+2026-11-17 15:03:15,904 [   3446]   INFO - #c.i.h.u.LocalHistoryLog - FS has been rebuild, rebuilding local history...
+2026-11-17 15:03:15,935 [   3477]   WARN - #c.i.p.instanceContainer - InstanceNotOverridableException: Incorrect override for com.intellij.openapi.roots.ui.configuration.ProjectSettingsService: com.android.tools.idea.gradle.structure.AndroidProjectSettingsServiceImpl overrides com.intellij.openapi.roots.ui.configuration.IdeaProjectSettingsService even though the existing implementation is not overridable (not declared as 'open=true')
+2026-11-17 15:03:15,963 [   3505]   INFO - #c.i.u.ExperimentalUI - === UI: old -> new ===
+2026-11-17 15:03:15,964 [   3506]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'ide.experimental.ui' has changed to 'true' by SYSTEM
+2026-11-17 15:03:16,023 [   3565]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Starting file watcher: /Applications/Android Studio.app/Contents/bin/fsnotifier
+2026-11-17 15:03:16,055 [   3597]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Native file watcher is operational.
+2026-11-17 15:03:16,104 [   3646]   INFO - #c.i.u.i.c.d.IndexWriter - Use com.intellij.util.indexing.contentQueue.dev.MultiThreadedWithSuspendIndexWriter@c1c89e6 as (parallel) index writer implementation
+2026-11-17 15:03:16,112 [   3654]   INFO - #c.i.u.i.i.SlruIndexStorageCacheProvider - SLRU cache will be used for indexes
+2026-11-17 15:03:16,113 [   3655]   INFO - #c.i.u.i.i.MapIndexStorageCacheProvider$Companion - Default index storage cache provider [com.intellij.util.indexing.impl.SlruIndexStorageCacheProvider@638e4cb0] is used
+2026-11-17 15:03:16,113 [   3655]   INFO - #c.i.u.i.FileBasedIndexImpl - Loading indexes
+2026-11-17 15:03:16,159 [   3701]   WARN - #c.i.u.n.s.ConfirmingTrustManager - Received an empty list of custom trusted root certificates from the system. Check log above for possible errors, enable debug logging in category 'org.jetbrains.nativecerts' for more information
+2026-11-17 15:03:16,160 [   3702]   INFO - #c.i.u.m.s.Menu - use new ScreenMenuBar implementation
+2026-11-17 15:03:16,160 [   3702]   INFO - #c.i.u.n.s.CertificateManager - Default SSL context initialized
+2026-11-17 15:03:16,290 [   3832]   WARN - #c.i.o.a.Application - No URL bundle (CFBundleURLTypes) is defined in the main bundle.
+To be able to open external links, specify protocols in the app layout section of the build file.
+Example: args.urlSchemes = ["your-protocol"] will handle following links: your-protocol://open?file=file&line=line
+2026-11-17 15:03:16,312 [   3854]   INFO - #com.android.studio.ml.onboarding.common.v2.StudioModelsOnboardingControllerImpl$Companion - StudioModelsOnboardingControllerImpl initialized
+2026-11-17 15:03:16,326 [   3868]   INFO - c.i.p.i.IdeFingerprint - Calculated dependencies fingerprint in 1719 ms (hash=1vtb40xkd4ld3, buildTime=1793865000, appVersion=AI-262.10968.63.2622.16840690)
+2026-11-17 15:03:16,350 [   3892]   INFO - #c.i.u.i.i.s.PersistentWriteAheadLogFactory - Opening persistent Write-Ahead Log over mmapped file (/Users/tamrakar/Desktop/OkHttp Inspector/.intellijPlatform/sandbox/plugin/AI-AI-262.10968.63.2622.16840690/system_runIde/index/write-ahead-log.{wal,paths})
+2026-11-17 15:03:16,368 [   3910]   INFO - #c.i.f.n.TrigramIndexFilter - Filter exclude extensions is disabled
+2026-11-17 15:03:16,404 [   3946]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://edgedl.me.gvt1.com/edgedl/dac/kb_indexed/v1.zip
+2026-11-17 15:03:16,478 [   4020]   INFO - #c.i.p.u.i.s.c.WriteAheadLogOverCircularBuffer - No unprocessed records left => old pathsEnumerator is useless => drop it
+2026-11-17 15:03:16,735 [   4277]   WARN - #c.i.o.e.c.i.EditorColorsManagerImpl - Cannot find scheme: Classic Light from plugins: com.intellij
+2026-11-17 15:03:16,779 [   4321]   INFO - #c.i.i.u.e.t.ExperimentalToolbarSettings - Dispatching UI settings change.
+2026-11-17 15:03:16,815 [   4357]   INFO - #c.i.u.ExperimentalUI - === UI: reset laf (com.intellij.ide.ui.laf.UIThemeLookAndFeelInfoImpl[Islands Dark com.intellij.ide.ui.laf.darcula.DarculaLaf] | Islands Dark | Islands Dark) ===
+2026-11-17 15:03:17,026 [   4568]   INFO - com.android.cliserver.CliServer - Server started, listening on localhost/127.0.0.1:62545
+2026-11-17 15:03:17,026 [   4568]   INFO - #c.i.o.a.ActionManager - Re-registering action stub for CompileDirty as CompileDirty_renamedStub_1426405960
+2026-11-17 15:03:17,044 [   4586]   INFO - #c.i.o.a.ActionManager - Re-registering action stub for MakeModule as MakeModule_renamedStub_1602439605
+2026-11-17 15:03:17,056 [   4598]   INFO - #c.i.o.a.ActionManager - Re-registering action stub for CompileProject as CompileProject_renamedStub_1768385755
+2026-11-17 15:03:17,068 [   4610]   INFO - #c.i.o.a.ActionManager - Re-registering action stub for Compile as Compile_renamedStub_408207919
+2026-11-17 15:03:17,070 [   4612]   INFO - #c.i.o.a.ActionManager - Re-registering action stub for Build as Build_renamedStub_301125
+2026-11-17 15:03:17,070 [   4612]   INFO - #c.i.o.a.ActionManager - Re-registering action stub for CompileFile as CompileFile_renamedStub_365744976
+2026-11-17 15:03:17,448 [   4990]   WARN - com.google.aiplugin.lucene.internal.vectorization.VectorizationProvider - Java vector incubator module is not readable. For optimal vector performance, pass '--add-modules jdk.incubator.vector' to enable Vector API.
+2026-11-17 15:03:17,577 [   5119]   INFO - #c.i.u.i.FileBasedIndexImpl - Indices to be built:XmlTagNames(v = 1),org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex(v = 4),java.auto.module.name(v = 7),org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex(v = 1),IdIndex(v = 22),KotlinTopLevelClassLikeDeclarationByPackageShortNameIndex(v = 3),DomFileIndex(v = 0),org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex(v = 4),TodoIndex(v = 13),java.binary.plus.expression(v = 4),bytecodeAnalysis(v = 11),FilenameIndex(v = 258),java.fun.expression(v = 6),org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex(v = 5),KotlinBinaryRootToPackageIndex(v = 7),org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex(v = 2),NavXmlIndex(v = 12),FrameworkDetectionIndex(v = 65536),clang.format.lightIndex(v = 0),com.android.tools.idea.dagger.index.DaggerIndex(v = 4),org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex(v = 3),SchemaTypeInheritance(v = 2),HtmlTagIdIndex(v = 3),org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex(v = 3),org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex(v = 2),android.ndk.jni.nativemethodindex(v = 4),org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex(v = 4),json.file.root.values(v = 5),RelaxSymbolIndex(v = 0),java.external.annotations(v = 1),org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex(v = 5),fileIncludes(v = 6),com.google.aiplugin.rag.bm25.lucindex(v = 1),FileNameWithoutExtensionIndex(v = 1),com.android.tools.idea.model.AndroidManifestIndex.NAME(v = 13),html5.custom.attributes.index(v = 1),KotlinPackageSourcesMemberNamesIndex(v = 2),editorconfig.index.name(v = 5),org.jetbrains.kotlin.idea.vfilefinder.KotlinPartialPackageNamesIndex(v = 5),XmlNamespaces(v = 8),java.source.module.name(v = 5),org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex(v = 2),java.null.method.argument(v = 1),BindingXmlIndex(v = 12),filetypes(v = 4096),xmlProperties(v = 2),Stubs(v = 46),KotlinTopLevelCallableByPackageShortNameIndex(v = 3),Trigram.Index(v = 4)
+2026-11-17 15:03:17,579 [   5121]   INFO - #c.i.u.i.FileBasedIndexImpl - Using simple flusher for indexes
+2026-11-17 15:03:17,584 [   5126]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 1459 ms. Initialized indexes: [FilenameIndex, Trigram.Index, java.source.module.name, HtmlTagIdIndex, java.auto.module.name, java.null.method.argument, java.external.annotations, IdIndex, java.binary.plus.expression, java.fun.expression, XmlTagNames, SchemaTypeInheritance, bytecodeAnalysis, XmlNamespaces, TodoIndex, fileIncludes, FrameworkDetectionIndex, html5.custom.attributes.index, filetypes, DomFileIndex, xmlProperties, RelaxSymbolIndex, Stubs, org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex, clang.format.lightIndex, FileNameWithoutExtensionIndex, json.file.root.values, org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex, KotlinPackageSourcesMemberNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinPartialPackageNamesIndex, editorconfig.index.name, org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex, KotlinBinaryRootToPackageIndex, KotlinTopLevelClassLikeDeclarationByPackageShortNameIndex, org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex, KotlinTopLevelCallableByPackageShortNameIndex, BindingXmlIndex, com.android.tools.idea.model.AndroidManifestIndex.NAME, NavXmlIndex, android.ndk.jni.nativemethodindex, com.android.tools.idea.dagger.index.DaggerIndex, com.google.aiplugin.rag.bm25.lucindex].
+2026-11-17 15:03:17,645 [   5187]   INFO - #com.android.studio.ml.onboarding.common.v2.StudioModelsOnboardingControllerImpl$Companion - Auth state changed: AuthState.LoggedOut(isAuthorized=false)
+2026-11-17 15:03:17,970 [   5512]   INFO - #c.i.p.s.StubIndexImpl - Following stub indices will be built:KotlinTopLevelExpectPropertyFqNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex(v = 2),KotlinTopLevelPropertyByPackageIndex(v = 2),dom.elementClass(v = 0),org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex(v = 2),markdown.header(v = 2),java.method.name(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex(v = 2),java.field.name(v = 2),java.class.shortname(v = 4),KotlinTopLevelFunctionByPackageIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex(v = 3),KotlinOverridableInternalMembersShortNameIndex(v = 2),dom.namespaceKey(v = 1),java.class.extlist(v = 3),properties.index(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex(v = 2),java.module.name(v = 4),jvm.static.member.type(v = 2),markdown.header.anchor(v = 2),gr.script.fqn.s(v = 5),gr.annot.members(v = 5),org.jetbrains.kotlin.idea.stubindex.KotlinInnerTypeAliasClassIdIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex(v = 3),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex(v = 2),KotlinTypeAliasByExpansionShortNameIndex(v = 2),java.method.parameter.types(v = 3),gr.field.name(v = 5),org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex(v = 2),KotlinExtensionsInObjectsByReceiverTypeIndex(v = 2),gr.class.super(v = 5),org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex(v = 3),KotlinProbablyNothingPropertyShortNameIndex(v = 2),jvm.static.member.name(v = 2),kotlin.primeIndexKey(v = 2),gr.script.class(v = 5),java.annotations(v = 2),java.anonymous.baseref(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex(v = 3),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex(v = 3),org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex(v = 3),gr.method.name(v = 5),java.record.component.name(v = 2),KotlinFileFacadeClassByPackageIndex(v = 2),java.class.fqn(v = 1),org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex(v = 2),KotlinProbablyInjectedFunctionShortNameIndex(v = 2),gr.class.fqn.s(v = 5),org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex(v = 2),KotlinTopLevelExpectFunctionFqNameIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinJvmNameAnnotationIndex(v = 2),KotlinTopLevelExtensionsByReceiverTypeIndex(v = 4),KotlinProbablyNothingFunctionShortNameIndex(v = 2),KotlinProbablyContractedFunctionShortNameIndex(v = 2),gr.annot.method.name(v = 5),org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex(v = 2),gr.anonymous.class(v = 6),KotlinTopLevelTypeAliasByPackageIndex(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex(v = 2),java.unnamed.class(v = 2),org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex(v = 3),org.jetbrains.kotlin.idea.stubindex.KotlinSubclassObjectNameIndex(v = 3)
+2026-11-17 15:03:17,973 [   5515]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 388 ms. Initialized stub indexes: {org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex, gr.annot.method.name, KotlinTopLevelPropertyByPackageIndex, KotlinTopLevelExpectPropertyFqNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex, java.record.component.name, KotlinExtensionsInObjectsByReceiverTypeIndex, java.class.extlist, org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex, org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex, KotlinTopLevelFunctionByPackageIndex, java.class.fqn, KotlinTopLevelExtensionsByReceiverTypeIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex, dom.namespaceKey, java.method.name, java.module.name, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex, kotlin.primeIndexKey, KotlinProbablyInjectedFunctionShortNameIndex, dom.elementClass, KotlinProbablyNothingFunctionShortNameIndex, KotlinProbablyContractedFunctionShortNameIndex, gr.anonymous.class, gr.class.fqn.s, org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex, KotlinTopLevelTypeAliasByPackageIndex, KotlinFileFacadeClassByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinSubclassObjectNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex, KotlinTopLevelExpectFunctionFqNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex, markdown.header, jvm.static.member.name, properties.index, KotlinOverridableInternalMembersShortNameIndex, gr.annot.members, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex, gr.method.name, gr.field.name, java.method.parameter.types, markdown.header.anchor, java.field.name, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex, KotlinProbablyNothingPropertyShortNameIndex, jvm.static.member.type, gr.class.super, org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex, gr.script.class, org.jetbrains.kotlin.idea.stubindex.KotlinInnerTypeAliasClassIdIndex, java.anonymous.baseref, java.annotations, java.class.shortname, org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex, KotlinTypeAliasByExpansionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinJvmNameAnnotationIndex, java.unnamed.class, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex, gr.script.fqn.s, org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex}.
+2026-11-17 15:03:21,072 [   8614]   INFO - #com.google.aiplugin.rag.doc.KbPrebuiltIndexerService$Companion - Opening prebuilt AKB index KbZip(DOWNLOADED, v=1, buildCl=993367749) /Users/tamrakar/Desktop/OkHttp Inspector/.intellijPlatform/sandbox/plugin/AI-AI-262.10968.63.2622.16840690/system_runIde/caches/gemini/kb/dac.zip
+2026-11-17 15:03:21,101 [   8643]   INFO - #c.i.o.v.n.p.FSRecords - VFS health-check enabled: first after 600000 ms, and each following 43200000 ms, wrap in RA: true
+2026-11-17 15:03:21,143 [   8685]   INFO - #c.i.s.c.m.SettingsRepositoryToSettingsSyncMigration - No data from settingsRepository in 'settingsRepository' folder => no migration needed
+2026-11-17 15:03:21,199 [   8741]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'gradle.phased.sync.enabled' has changed to 'false' by SYSTEM
+2026-11-17 15:03:21,199 [   8741]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'gradle.phased.sync.bridge.disabled' has changed to 'false' by SYSTEM
+2026-11-17 15:03:21,220 [   8762]   INFO - #com.android.studio.ml.bot.skills.UserSkillsDirectoryInitializer$Companion - Skills directory /Users/tamrakar/.agents/skills already exists; skipping directory creation
+2026-11-17 15:03:21,254 [   8796]   INFO - #c.i.i.s.e.StatisticsEventLoggerProvider - Initialize event logger provider for 'MP'
+2026-11-17 15:03:21,266 [   8808]   INFO - #c.i.i.s.e.StatisticsEventLoggerProvider - Initialize event logger provider for 'TRACE'
+2026-11-17 15:03:21,268 [   8810]   INFO - #c.i.i.s.e.StatisticsEventLoggerProvider - Initialize event logger provider for 'ML'
+2026-11-17 15:03:21,269 [   8811]   INFO - #c.i.i.s.e.StatisticsEventLoggerProvider - Initialize event logger provider for 'FUS'
+2026-11-17 15:03:21,273 [   8815]   INFO - #c.i.i.s.e.StatisticsEventLoggerProvider - Initialize event logger provider for 'FUS'
+2026-11-17 15:03:21,287 [   8829]   INFO - #o.j.i.BuiltInServerManager - built-in server started, port 63344
+2026-11-17 15:03:21,324 [   8866]   INFO - #c.i.o.u.i.UpdateCheckerService - channel: release
+2026-11-17 15:03:21,326 [   8868]   INFO - #c.i.o.u.i.UpdateCheckerService - channel set to 'release' by com.android.tools.idea.AndroidStudioUpdateStrategyCustomization
+2026-11-17 15:03:21,339 [   8881]   INFO - #c.i.p.j.JdkEx - === TabbingMode: available ===
+2026-11-17 15:03:21,340 [   8882]   INFO - #c.i.o.u.i.ExternalUpdateManager - update manager: false
+2026-11-17 15:03:21,341 [   8883]   INFO - #c.i.u.m.MergeAllWindowsAction - === FullScreenTabSupport: frames: 0 ===
+2026-11-17 15:03:21,341 [   8883]   INFO - #c.i.c.m.CodeInsightContextEnabling - multiverse is enabled
+2026-11-17 15:03:21,342 [   8884]   INFO - #c.i.l.LocalizationStateServiceImpl - [i18n] Localization property from registry is null
+2026-11-17 15:03:21,344 [   8886]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/studio/patches/updates.xml?uid=185a9555-ed41-4034-aba8-cedae930b542&os=Mac%20OS%20X%2027.2.1&manager=false&build=AI-262.10968.63.2622.16840690
+2026-11-17 15:03:21,386 [   8928]   INFO - #o.j.k.i.script - [KOTLIN_SCRIPTING] processing definitions provider org.jetbrains.kotlin.idea.core.script.k2.definitions.DefinitionFromDependenciesProvider
+2026-11-17 15:03:21,404 [   8946] SEVERE - #c.i.u.SlowOperations - Slow operations are prohibited on EDT. See SlowOperations.assertSlowOperationsAreAllowed javadoc.
+java.lang.Throwable: Slow operations are prohibited on EDT. See SlowOperations.assertSlowOperationsAreAllowed javadoc.
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:378)
+	at com.intellij.util.SlowOperations.logError(SlowOperations.java:180)
+	at com.intellij.util.SlowOperations.assertSlowOperationsAreAllowed(SlowOperations.java:128)
+	at com.intellij.util.indexing.FileBasedIndexScanUtil.ensureUpToDate(FileBasedIndexScanUtil.java:51)
+	at com.intellij.util.indexing.FileBasedIndexScanUtil.processFilesContainingAnyKey(FileBasedIndexScanUtil.java:250)
+	at com.intellij.util.indexing.FileBasedIndexImpl.processFilesContainingAnyKey(FileBasedIndexImpl.java:1303)
+	at com.intellij.psi.search.FilenameIndex.getVirtualFilesByNames(FilenameIndex.java:246)
+	at com.intellij.psi.search.FilenameIndex.getVirtualFilesByName(FilenameIndex.java:81)
+	at org.jetbrains.kotlin.idea.core.script.k2.definitions.ScriptTemplatesFromDependenciesCache.getOrDiscover$lambda$0$0(DefinitionFromDependenciesProvider.kt:85)
+	at com.intellij.openapi.application.ActionsKt.runReadActionBlocking(actions.kt:47)
+	at org.jetbrains.kotlin.idea.core.script.k2.definitions.ScriptTemplatesFromDependenciesCache.getOrDiscover$lambda$0(DefinitionFromDependenciesProvider.kt:83)
+	at org.jetbrains.kotlin.caches.project.CacheUtilsKt.cache$lambda$0(CacheUtils.kt:49)
+	at com.intellij.psi.impl.AbstractPsiCachedValue.doCompute(PsiCachedValueImpl.kt:21)
+	at com.intellij.util.CachedValueBase.lambda$getValueWithLock$3(CachedValueBase.java:304)
+	at com.intellij.util.CachedValueBase.computeData(CachedValueBase.java:42)
+	at com.intellij.util.CachedValueBase.lambda$getValueWithLock$2(CachedValueBase.java:304)
+	at com.intellij.openapi.util.RecursionManager$1.computePreventingRecursion(RecursionManager.java:124)
+	at com.intellij.openapi.util.RecursionGuard.doPreventingRecursion(RecursionGuard.java:28)
+	at com.intellij.openapi.util.RecursionManager.doPreventingRecursion(RecursionManager.java:79)
+	at com.intellij.util.CachedValueBase.getValueWithLock(CachedValueBase.java:305)
+	at com.intellij.psi.impl.AbstractPsiCachedValue.getValue(PsiCachedValueImpl.kt:15)
+	at com.intellij.util.CachedValuesManagerImpl.getCachedValue(CachedValuesManagerImpl.java:98)
+	at org.jetbrains.kotlin.caches.project.CacheUtilsKt.cache(CacheUtils.kt:46)
+	at org.jetbrains.kotlin.caches.project.CacheUtilsKt.cacheByClass(CacheUtils.kt:37)
+	at org.jetbrains.kotlin.idea.core.script.k2.definitions.ScriptTemplatesFromDependenciesCache.getOrDiscover(DefinitionFromDependenciesProvider.kt:79)
+	at org.jetbrains.kotlin.idea.core.script.k2.definitions.DefinitionFromDependenciesProvider.getDefinitionClasses(DefinitionFromDependenciesProvider.kt:44)
+	at org.jetbrains.kotlin.idea.core.script.shared.definition.BridgeScriptDefinitionsContributor._get_definitions_$lambda$0(BridgeDefinitionsContributor.kt:29)
+	at kotlin.sequences.FlatteningSequence$iterator$1.ensureItemIterator(Sequences.kt:363)
+	at kotlin.sequences.FlatteningSequence$iterator$1.hasNext(Sequences.kt:351)
+	at kotlin.collections.CollectionsKt__MutableCollectionsKt.addAll(MutableCollections.kt:134)
+	at org.jetbrains.kotlin.idea.core.script.k2.definitions.ScriptDefinitionProviderImpl$Companion.computeOrGetDefinitions$lambda$0(ScriptDefinitionProviderImpl.kt:75)
+	at org.jetbrains.kotlin.caches.project.CacheUtilsKt.cache$lambda$0(CacheUtils.kt:49)
+	at com.intellij.psi.impl.AbstractPsiCachedValue.doCompute(PsiCachedValueImpl.kt:21)
+	at com.intellij.util.CachedValueBase.lambda$getValueWithLock$3(CachedValueBase.java:304)
+	at com.intellij.util.CachedValueBase.computeData(CachedValueBase.java:42)
+	at com.intellij.util.CachedValueBase.lambda$getValueWithLock$2(CachedValueBase.java:304)
+	at com.intellij.openapi.util.RecursionManager$1.computePreventingRecursion(RecursionManager.java:124)
+	at com.intellij.openapi.util.RecursionGuard.doPreventingRecursion(RecursionGuard.java:28)
+	at com.intellij.openapi.util.RecursionManager.doPreventingRecursion(RecursionManager.java:79)
+	at com.intellij.util.CachedValueBase.getValueWithLock(CachedValueBase.java:305)
+	at com.intellij.psi.impl.AbstractPsiCachedValue.getValue(PsiCachedValueImpl.kt:15)
+	at com.intellij.util.CachedValuesManagerImpl.getCachedValue(CachedValuesManagerImpl.java:98)
+	at org.jetbrains.kotlin.caches.project.CacheUtilsKt.cache(CacheUtils.kt:46)
+	at org.jetbrains.kotlin.caches.project.CacheUtilsKt.cacheByClass(CacheUtils.kt:37)
+	at org.jetbrains.kotlin.idea.core.script.k2.definitions.ScriptDefinitionProviderImpl$Companion.computeOrGetDefinitions(ScriptDefinitionProviderImpl.kt:55)
+	at org.jetbrains.kotlin.idea.core.script.k2.definitions.ScriptDefinitionProviderImpl$Companion.access$computeOrGetDefinitions(ScriptDefinitionProviderImpl.kt:54)
+	at org.jetbrains.kotlin.idea.core.script.k2.definitions.ScriptDefinitionProviderImpl.getDefinitionsFromSources(ScriptDefinitionProviderImpl.kt:38)
+	at org.jetbrains.kotlin.idea.core.script.k2.definitions.ScriptDefinitionProviderImpl.getCurrentDefinitions(ScriptDefinitionProviderImpl.kt:32)
+	at com.android.tools.idea.startup.GradleSpecificInitializer.lambda$configureKotlinScripting$0(GradleSpecificInitializer.java:156)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:246)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$100(TransactionGuardImpl.java:22)
+	at com.intellij.openapi.application.TransactionGuardImpl$1.run(TransactionGuardImpl.java:208)
+	at com.intellij.openapi.application.RunnableToLambda.invoke(coroutines.kt:343)
+	at com.intellij.openapi.application.RunnableToLambda.invoke(coroutines.kt:341)
+	at com.intellij.platform.locking.impl.NestedLocksThreadingSupport.runWriteIntentReadAction(NestedLocksThreadingSupport.kt:711)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:1109)
+	at com.intellij.openapi.application.impl.ApplicationImpl$7.lambda$run$0(ApplicationImpl.java:663)
+	at com.intellij.concurrency.ThreadContext.installThreadContext(threadContext.kt:307)
+	at com.intellij.openapi.application.impl.ApplicationImpl$7.run(ApplicationImpl.java:661)
+	at com.intellij.util.concurrency.ChildContext$runInChildContext$1.invoke(propagation.kt:193)
+	at com.intellij.util.concurrency.ChildContext$runInChildContext$1.invoke(propagation.kt:193)
+	at com.intellij.util.concurrency.ChildContext.runInChildContext(propagation.kt:199)
+	at com.intellij.util.concurrency.ChildContext.runInChildContext(propagation.kt:193)
+	at com.intellij.util.concurrency.ContextRunnable.lambda$run$0(ContextRunnable.java:26)
+	at com.intellij.concurrency.ThreadContext.resetThreadContext(threadContext.kt:295)
+	at com.intellij.util.concurrency.ContextRunnable.run(ContextRunnable.java:25)
+	at com.intellij.openapi.application.impl.NonBlockingFlushQueue.runNextEvent$lambda$1$1(NonBlockingFlushQueue.kt:332)
+	at com.intellij.concurrency.ThreadContext.resetThreadContext(threadContext.kt:295)
+	at com.intellij.openapi.application.impl.NonBlockingFlushQueue.runNextEvent$lambda$1(NonBlockingFlushQueue.kt:325)
+	at com.intellij.platform.locking.impl.NestedLocksThreadingSupport.tryRunWriteIntentReadAction(NestedLocksThreadingSupport.kt:754)
+	at com.intellij.openapi.application.impl.NonBlockingFlushQueue.runNextEvent(NonBlockingFlushQueue.kt:321)
+	at com.intellij.openapi.application.impl.NonBlockingFlushQueue.flushNow(NonBlockingFlushQueue.kt:299)
+	at com.intellij.openapi.application.impl.NonBlockingFlushQueue.FLUSH_NOW$lambda$0(NonBlockingFlushQueue.kt:158)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:731)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:584)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$0$0$0(IdeEventQueue.kt:384)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$0(IdeEventQueue.kt:1122)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:106)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:1122)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$0(IdeEventQueue.kt:382)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:422)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2026-11-17 15:03:21,409 [   8951] SEVERE - #c.i.u.SlowOperations - Android Studio Rabbit 2 | 2026.2.2 Patch 1  Build #AI-262.10968.63.2622.16840690
+2026-11-17 15:03:21,409 [   8951] SEVERE - #c.i.u.SlowOperations - JDK: 25.0.4; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2026-11-17 15:03:21,410 [   8952] SEVERE - #c.i.u.SlowOperations - OS: Mac OS X
+2026-11-17 15:03:21,410 [   8952] SEVERE - #c.i.u.SlowOperations - Last Action: 
+2026-11-17 15:03:21,410 [   8952]   INFO - #c.i.u.m.t.TouchbarSupport - touchbar disabled: registry
+2026-11-17 15:03:21,424 [   8966]   INFO - #com.android.tools.idea.tracer.StudioTracingController$Companion - Tracing Driver initialized and disabled.
+2026-11-17 15:03:21,430 [   8972]   INFO - #o.j.k.i.script - [KOTLIN_SCRIPTING] processing definitions provider com.android.tools.idea.script.IdeScriptDefinitionProvider
+2026-11-17 15:03:21,632 [   9174]   INFO - #c.i.o.a.i.NonBlockingReadActionImpl - OTel monitoring for NonBlockingReadAction is enabled
+2026-11-17 15:03:21,647 [   9189]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://plugins.jetbrains.com/files/brokenPlugins.json
+2026-11-17 15:03:21,677 [   9219]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Loading global entities com.intellij.platform.workspace.jps.entities.SdkEntity from files
+2026-11-17 15:03:21,677 [   9219]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Loading global entities com.intellij.platform.workspace.jps.entities.LibraryEntity from files
+2026-11-17 15:03:21,687 [   9229]   INFO - #o.j.a.s.AndroidSdkUtils - Found Studio home directory at: '/Applications/Android Studio.app/Contents'
+2026-11-17 15:03:21,688 [   9230]   INFO - #o.j.a.s.AndroidSdkUtils - Looking for Android SDK at '/Applications/Android Studio.app/Contents/sdk'
+2026-11-17 15:03:21,688 [   9230]   INFO - #o.j.a.s.AndroidSdkUtils - Looking for Android SDK at '/Applications/Android Studio.app/sdk'
+2026-11-17 15:03:21,688 [   9230]   INFO - #o.j.a.s.AndroidSdkUtils - Unable to locate SDK within the Android studio installation.
+2026-11-17 15:03:21,689 [   9231]   INFO - #o.j.a.s.AndroidSdkUtils - ANDROID_HOME environment variable: '/Users/tamrakar/Library/Android/sdk'
+2026-11-17 15:03:21,896 [   9438]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/addons_list-7.xml
+2026-11-17 15:03:21,899 [   9441]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/addons_list-7.xml
+2026-11-17 15:03:21,923 [   9465]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://downloads.marketplace.jetbrains.com/files/brokenPlugins.json
+2026-11-17 15:03:22,016 [   9558]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/repository2-4.xml
+2026-11-17 15:03:22,016 [   9558]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-5.xml
+2026-11-17 15:03:22,016 [   9558]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-5.xml
+2026-11-17 15:03:22,016 [   9558]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-automotive-distantdisplay/sys-img2-5.xml
+2026-11-17 15:03:22,016 [   9558]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-5.xml
+2026-11-17 15:03:22,016 [   9558]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/android/sys-img2-5.xml
+2026-11-17 15:03:22,017 [   9559]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/repository2-4.xml
+2026-11-17 15:03:22,017 [   9559]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-desktop/sys-img2-5.xml
+2026-11-17 15:03:22,017 [   9559]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_apis_tablet/sys-img2-5.xml
+2026-11-17 15:03:22,017 [   9559]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-5.xml
+2026-11-17 15:03:22,017 [   9559]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/aosp_atd/sys-img2-5.xml
+2026-11-17 15:03:22,017 [   9559]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/google-tv/sys-img2-5.xml
+2026-11-17 15:03:22,017 [   9559]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-automotive/sys-img2-5.xml
+2026-11-17 15:03:22,017 [   9559]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/android/sys-img2-5.xml
+2026-11-17 15:03:22,017 [   9559]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/android-automotive/sys-img2-5.xml
+2026-11-17 15:03:22,017 [   9559]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_atd/sys-img2-5.xml
+2026-11-17 15:03:22,017 [   9559]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/repository2-3.xml
+2026-11-17 15:03:22,017 [   9559]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-5.xml
+2026-11-17 15:03:22,017 [   9559]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-5.xml
+2026-11-17 15:03:22,017 [   9559]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-5.xml
+2026-11-17 15:03:22,017 [   9559]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/repository2-3.xml
+2026-11-17 15:03:22,017 [   9559]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-5.xml
+2026-11-17 15:03:22,017 [   9559]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/aosp_tablet/sys-img2-5.xml
+2026-11-17 15:03:22,017 [   9559]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/android-automotive-distantdisplay/sys-img2-5.xml
+2026-11-17 15:03:22,017 [   9559]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-5.xml
+2026-11-17 15:03:22,017 [   9559]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/aosp_tablet/sys-img2-5.xml
+2026-11-17 15:03:22,017 [   9559]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-5.xml
+2026-11-17 15:03:22,017 [   9559]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/android-desktop/sys-img2-5.xml
+2026-11-17 15:03:22,017 [   9559]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/google_apis_tablet/sys-img2-5.xml
+2026-11-17 15:03:22,017 [   9559]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/aosp_atd/sys-img2-5.xml
+2026-11-17 15:03:22,018 [   9560]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/google-tv/sys-img2-5.xml
+2026-11-17 15:03:22,018 [   9560]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/google_atd/sys-img2-5.xml
+2026-11-17 15:03:22,018 [   9560]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_xr/sys-img2-5.xml
+2026-11-17 15:03:22,018 [   9560]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/google_xr/sys-img2-5.xml
+2026-11-17 15:03:22,018 [   9560]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_playstore_tablet/sys-img2-5.xml
+2026-11-17 15:03:22,018 [   9560]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/glass/addon2-4.xml
+2026-11-17 15:03:22,018 [   9560]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/addon2-4.xml
+2026-11-17 15:03:22,018 [   9560]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/glass/addon2-4.xml
+2026-11-17 15:03:22,018 [   9560]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/addon2-4.xml
+2026-11-17 15:03:22,018 [   9560]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/google_playstore_tablet/sys-img2-5.xml
+2026-11-17 15:03:22,834 [  10376]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://plugins.jetbrains.com/files/brokenPlugins.json
+2026-11-17 15:03:22,912 [  10454]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://plugins.jetbrains.com/files/pluginsXMLIds.json
+2026-11-17 15:03:23,024 [  10566]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://downloads.marketplace.jetbrains.com/files/brokenPlugins.json
+2026-11-17 15:03:23,193 [  10735]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://downloads.marketplace.jetbrains.com/files/pluginsXMLIds.json
+2026-11-17 15:03:23,379 [  10921]   INFO - #c.i.i.p.m.MarketplaceRequests - Looking for the last compatible plugin updates for:
+[]
+send machine ID: true
+2026-11-17 15:03:23,379 [  10921]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://plugins.jetbrains.com/files/pluginsXMLIds.json
+2026-11-17 15:03:23,387 [  10929]   INFO - #com.android.tools.idea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/repository2-4.xml
+2026-11-17 15:03:23,388 [  10930]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/repository2-4.xml
+2026-11-17 15:03:23,388 [  10930]   INFO - #com.android.tools.idea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/repository2-3.xml
+2026-11-17 15:03:23,389 [  10931]   INFO - #com.android.tools.idea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android/sys-img2-5.xml
+2026-11-17 15:03:23,389 [  10931]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/android/sys-img2-5.xml
+2026-11-17 15:03:23,391 [  10933]   INFO - #com.android.tools.idea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-automotive/sys-img2-5.xml
+2026-11-17 15:03:23,391 [  10933]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/repository2-3.xml
+2026-11-17 15:03:23,392 [  10934]   INFO - #com.android.tools.idea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-automotive-distantdisplay/sys-img2-5.xml
+2026-11-17 15:03:23,392 [  10934]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/android-automotive-distantdisplay/sys-img2-5.xml
+2026-11-17 15:03:23,392 [  10934]   INFO - #com.android.tools.idea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-5.xml
+2026-11-17 15:03:23,392 [  10934]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-5.xml
+2026-11-17 15:03:23,392 [  10934]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/android-automotive/sys-img2-5.xml
+2026-11-17 15:03:23,393 [  10935]   INFO - #com.android.tools.idea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-5.xml
+2026-11-17 15:03:23,394 [  10936]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-5.xml
+2026-11-17 15:03:23,395 [  10937]   INFO - #com.android.tools.idea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-5.xml
+2026-11-17 15:03:23,395 [  10937]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-5.xml
+2026-11-17 15:03:23,396 [  10938]   INFO - #com.android.tools.idea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/android-desktop/sys-img2-5.xml
+2026-11-17 15:03:23,397 [  10939]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/android-desktop/sys-img2-5.xml
+2026-11-17 15:03:23,397 [  10939]   INFO - #com.android.tools.idea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/aosp_atd/sys-img2-5.xml
+2026-11-17 15:03:23,397 [  10939]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/aosp_atd/sys-img2-5.xml
+2026-11-17 15:03:23,397 [  10939]   INFO - #com.android.tools.idea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_atd/sys-img2-5.xml
+2026-11-17 15:03:23,397 [  10939]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/google_atd/sys-img2-5.xml
+2026-11-17 15:03:23,397 [  10939]   INFO - #com.android.tools.idea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google-tv/sys-img2-5.xml
+2026-11-17 15:03:23,397 [  10939]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/google-tv/sys-img2-5.xml
+2026-11-17 15:03:23,398 [  10940]   INFO - #com.android.tools.idea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-5.xml
+2026-11-17 15:03:23,401 [  10943]   INFO - #com.android.tools.idea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_playstore_tablet/sys-img2-5.xml
+2026-11-17 15:03:23,401 [  10943]   INFO - #com.android.tools.idea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_xr/sys-img2-5.xml
+2026-11-17 15:03:23,401 [  10943]   INFO - #com.android.tools.idea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-5.xml
+2026-11-17 15:03:23,401 [  10943]   INFO - #com.android.tools.idea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/glass/addon2-4.xml
+2026-11-17 15:03:23,401 [  10943]   INFO - #com.android.tools.idea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/addon2-4.xml
+2026-11-17 15:03:23,401 [  10943]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-5.xml
+2026-11-17 15:03:23,401 [  10943]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/google_playstore_tablet/sys-img2-5.xml
+2026-11-17 15:03:23,401 [  10943]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-5.xml
+2026-11-17 15:03:23,401 [  10943]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/glass/addon2-4.xml
+2026-11-17 15:03:23,401 [  10943]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/google_xr/sys-img2-5.xml
+2026-11-17 15:03:23,401 [  10943]   INFO - #com.android.tools.idea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/google_apis_tablet/sys-img2-5.xml
+2026-11-17 15:03:23,401 [  10943]   INFO - #com.android.tools.idea.updater.SdkComponentSource - Downloading https://dl.google.com/android/repository/sys-img/aosp_tablet/sys-img2-5.xml
+2026-11-17 15:03:23,401 [  10943]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/aosp_tablet/sys-img2-5.xml
+2026-11-17 15:03:23,401 [  10943]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/sys-img/google_apis_tablet/sys-img2-5.xml
+2026-11-17 15:03:23,402 [  10944]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/addon2-4.xml
+2026-11-17 15:03:23,499 [  11041]   INFO - #com.android.tools.idea.diagnostics.error.AndroidStudioErrorReportSubmitter - Exception signature: com.android.diagnostic.LoggerErrorMessage at com.intellij.util.SlowOperations.logError-7bc14418, dynamic signature: com.android.diagnostic.LoggerErrorMessage at com.intellij.util.SlowOperations.logError-9818e770, report ID: 64c27de888400000
+2026-11-17 15:03:23,681 [  11223]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://downloads.marketplace.jetbrains.com/files/pluginsXMLIds.json
+2026-11-17 15:03:23,787 [  11329]   INFO - #c.i.i.p.m.MarketplaceRequests - Looking for the last compatible plugin updates for:
+[]
+send machine ID: true
+2026-11-17 15:07:45,078 [ 272620]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.SdkEntity to files
+2026-11-17 15:07:45,081 [ 272623]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.LibraryEntity to files
+2026-11-17 15:07:45,179 [ 272721]   INFO - #c.i.a.o.PathMacrosImpl - Saved path macros: {}
+2026-11-17 15:07:45,183 [ 272725]   INFO - #c.i.c.ComponentStoreImpl - Saving appDaemonCodeAnalyzerSettings took 19 ms, FileTypeManager took 19 ms
+2026-11-17 15:08:16,356 [ 303898]   WARN - #com.android.tools.idea.analytics.SystemInfoStatsMonitor - Exception during CPU information calculation
+com.intellij.execution.ExecutionException: No SDK emulator package
+	at com.android.tools.idea.analytics.SystemInfoStatsMonitor.runEmulatorCheck(SystemInfoStatsMonitor.java:196)
+	at com.android.tools.idea.analytics.SystemInfoStatsMonitor.calcCpuInfo(SystemInfoStatsMonitor.java:248)
+	at com.android.tools.idea.analytics.SystemInfoStatsMonitor.updateCpuInfo(SystemInfoStatsMonitor.java:186)
+	at com.android.tools.idea.analytics.SystemInfoStatsMonitor.updateAndUploadStats(SystemInfoStatsMonitor.java:143)
+	at com.android.tools.idea.analytics.SystemInfoStatsMonitor$1.run(SystemInfoStatsMonitor.java:122)
+	at com.intellij.util.concurrency.Propagation.capturePropagationContext$lambda$0$0(propagation.kt:583)
+	at com.intellij.concurrency.ThreadContext.installThreadContext(threadContext.kt:307)
+	at com.intellij.util.concurrency.Propagation.capturePropagationContext$lambda$0(propagation.kt:581)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at com.intellij.util.concurrency.SchedulingWrapper$MyScheduledFutureTask.run(SchedulingWrapper.java:311)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2026-11-17 15:08:19,365 [ 306907]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.SdkEntity to files
+2026-11-17 15:08:19,365 [ 306907]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.LibraryEntity to files
+2026-11-17 15:11:59,371 [ 526913]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'i18n.locale' has changed to '' by SYSTEM
+2026-11-17 15:11:59,376 [ 526918]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.SdkEntity to files
+2026-11-17 15:11:59,376 [ 526918]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.LibraryEntity to files
+2026-11-17 15:11:59,402 [ 526944]   INFO - #c.i.a.o.PathMacrosImpl - Saved path macros: {}
+2026-11-17 15:11:59,407 [ 526949]   INFO - #c.i.c.ComponentStoreImpl - Saving appFileTypeManager took 13 ms
+2026-11-17 15:11:59,418 [ 526960]   INFO - #c.i.i.s.EventLogApplicationLifecycleListener - Statistics. Don't start external uploader because there are no enabled logger providers
+2026-11-17 15:11:59,419 [ 526961]   INFO - #c.i.i.s.e.u.EventLogExternalUploader - Statistics. Don't start external uploader because sending logs is disabled for all recorders
+2026-11-17 15:11:59,431 [ 526973]   INFO - #c.i.o.f.i.FileTypeDetectionService - 0 auto-detected files. Detection took 0 ms
+2026-11-17 15:11:59,436 [ 526978]   INFO - #o.j.i.BuiltInServer - web server stopped
+2026-11-17 15:11:59,440 [ 526982]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Watcher terminated with exit code 0
+2026-11-17 15:11:59,443 [ 526985]   INFO - #c.i.d.JVMResponsivenessMonitor - Sampling thread interrupted -> stop sampling
+2026-11-17 15:11:59,443 [ 526985]   INFO - #c.i.d.JVMResponsivenessMonitor - Sampling thread exiting normally
+2026-11-17 15:11:59,452 [ 526994]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose started
+2026-11-17 15:11:59,475 [ 527017]   INFO - #c.i.p.s.StubIndexImpl - StubIndexExtension-s were unloaded
+2026-11-17 15:11:59,475 [ 527017]   INFO - #c.i.p.s.SerializationManagerImpl - Start shutting down /Users/tamrakar/Desktop/OkHttp Inspector/.intellijPlatform/sandbox/plugin/AI-AI-262.10968.63.2622.16840690/system_runIde/index/rep.names
+2026-11-17 15:11:59,475 [ 527017]   INFO - #c.i.p.s.SerializationManagerImpl - Finished shutting down /Users/tamrakar/Desktop/OkHttp Inspector/.intellijPlatform/sandbox/plugin/AI-AI-262.10968.63.2622.16840690/system_runIde/index/rep.names
+2026-11-17 15:11:59,475 [ 527017]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose completed in 23ms.
+2026-11-17 15:11:59,481 [ 527023]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS disconnect started
+2026-11-17 15:11:59,482 [ 527024]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS closing
+2026-11-17 15:11:59,485 [ 527027]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS disconnect completed in 3 ms.
+2026-11-17 15:11:59,508 [ 527050]   INFO - #c.i.p.i.b.AppStarter - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------
+2026-11-17 15:40:08,782 [      5]   INFO - #c.i.p.i.b.AppStarter - ------------------------------------------------------ IDE STARTED ------------------------------------------------------
+2026-11-17 15:40:08,784 [      7]   INFO - #c.i.p.i.b.AppStarter - skipping shell environment: the IDE is likely launched from a terminal (SHLVL=1)
+2026-11-17 15:40:08,784 [      7]   INFO - #c.i.p.i.b.AppStarter - Will skip the config import to directory "/Users/tamrakar/Desktop/OkHttp Inspector/.intellijPlatform/sandbox/plugin/AI-AI-262.10968.63.2622.16840690/config_runIde" (exists = true). Current entries: "options", "ssl", "updatedBrokenPlugins.db", "bundled_plugins.txt", "disabled_plugins.txt", "early-access-registry.txt", "app-internal-state.db".
+2026-11-17 15:40:08,784 [      7]   WARN - #c.i.i.p.PluginManager - Dist index is missing or corrupted; an OLD, DEPRECATED, SOON-TO-BE-REMOVED implementation will be used
+2026-11-17 15:40:08,811 [     34]   INFO - #c.i.p.i.b.AppStarter - JNA library (64-bit) loaded in 26 ms
+2026-11-17 15:40:08,829 [     52]   INFO - #c.i.p.i.b.AppStarter - IDE: Android Studio (build #AI-262.10968.63.2622.16840690, Thu, 5 Nov 2026 07:50:00 GMT)
+2026-11-17 15:40:08,830 [     53]   INFO - #c.i.p.i.b.AppStarter - OS: macOS (27.2.1)
+2026-11-17 15:40:08,830 [     53]   INFO - #c.i.p.i.b.AppStarter - JRE: 25.0.4+-16339643-b508.27, aarch64 (JetBrains s.r.o.)
+2026-11-17 15:40:08,830 [     53]   INFO - #c.i.p.i.b.AppStarter - JVM: 25.0.4+-16339643-b508.27 (OpenJDK 64-Bit Server VM)
+2026-11-17 15:40:08,830 [     53]   INFO - #c.i.p.i.b.AppStarter - PID: 72515
+2026-11-17 15:40:08,831 [     54]   INFO - #c.i.p.i.b.AppStarter - Timezone: Asia/Kathmandu (+05:45)
+2026-11-17 15:40:08,874 [     97]   INFO - #c.i.p.i.b.AppStarter - JVM options: [-Daether.connector.resumeDownloads=false, -Dapple.awt.application.appearance=system, -Dapple.awt.fileDialogForDirectories=true, -Dapple.laf.useScreenMenuBar=true, -Dcompose.swing.render.on.graphics=true, -Dflags.configuration.level=COMPLETE, -Dflags.debug.enabled=false, -Dide.native.launcher=false, -Dide.no.platform.update=false, -Didea.auto.reload.plugins=true, -Didea.classpath.index.enabled=false, -Didea.config.path=/Users/tamrakar/Desktop/OkHttp Inspector/.intellijPlatform/sandbox/plugin/AI-AI-262.10968.63.2622.16840690/config_runIde, -Didea.is.internal=true, -Didea.log.path=/Users/tamrakar/Desktop/OkHttp Inspector/.intellijPlatform/sandbox/plugin/AI-AI-262.10968.63.2622.16840690/log_runIde, -Didea.paths.selector=AndroidStudio2026.2.2, -Didea.platform.prefix=AndroidStudio, -Didea.plugin.in.sandbox.mode=true, -Didea.plugins.path=/Users/tamrakar/Desktop/OkHttp Inspector/.intellijPlatform/sandbox/plugin/AI-AI-262.10968.63.2622.16840690/plugins_runIde, -Didea.required.plugins.id=io.github.okhttpinspector, -Didea.reset.classpath.from.manifest=true, -Didea.smooth.progress=false, -Didea.system.path=/Users/tamrakar/Desktop/OkHttp Inspector/.intellijPlatform/sandbox/plugin/AI-AI-262.10968.63.2622.16840690/system_runIde, -Didea.vendor.name=Google, -Dij.startup.error.handler.class=com.intellij.platform.ide.bootstrap.StudioStartupErrorHandler, -Dintellij.console.log.level=warning, -Dintellij.platform.runtime.repository.path=/Applications/Android Studio.app/Contents/modules/module-descriptors.dat, -Dio.netty.allocator.type=pooled, -Djava.nio.file.spi.DefaultFileSystemProvider=com.intellij.platform.core.nio.fs.MultiRoutingFileSystemProvider, -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader, -Djava.util.zip.use.nio.for.zip.file.access=true, -Djbr.catch.SIGABRT=true, -Djdk.attach.allowAttachSelf=true, -Djdk.http.auth.tunneling.disabledSchemes="", -Djdk.module.illegalAccess.silent=true, -Djdk.nio.maxCachedBufferSize=2097152, -Djna.boot.library.path=/Applications/Android Studio.app/Contents/lib/jna/aarch64, -Djna.noclasspath=true, -Djna.nosys=true, -Dplugin.path=/Users/tamrakar/Desktop/OkHttp Inspector/.intellijPlatform/sandbox/plugin/AI-AI-262.10968.63.2622.16840690/plugins_runIde/plugin, -Dpty4j.preferred.native.folder=/Applications/Android Studio.app/Contents/lib/pty4j, -Dskiko.library.path=/Applications/Android Studio.app/Contents/lib/skiko-awt-runtime-all, -Dskiko.rendering.useScreenMenuBar=false, -Dsplash=true, -Dsun.io.useCanonCaches=false, -Dsun.java2d.metal=true, -XX:JbrShrinkingGcMaxHeapFreeRatio=40, -XX:ReservedCodeCacheSize=512m, -XX:+HeapDumpOnOutOfMemoryError, -XX:-OmitStackTraceInFastThrow, -XX:CICompilerCount=2, -XX:+IgnoreUnrecognizedVMOptions, -XX:+UnlockDiagnosticVMOptions, -XX:TieredOldPercentage=100000, -XX:+UseCompactObjectHeaders, --sun-misc-unsafe-memory-access=allow, -Xbootclasspath/a:/Applications/Android Studio.app/Contents/lib/nio-fs.jar, -XX:FlightRecorderOptions=stackdepth=256, --add-opens=java.base/sun.net.www.protocol.https=ALL-UNNAMED, --enable-native-access=ALL-UNNAMED, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.ref=ALL-UNNAMED, --add-opens=java.base/java.lang.reflect=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.text=ALL-UNNAMED, --add-opens=java.base/java.time=ALL-UNNAMED, --add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.locks=ALL-UNNAMED, --add-opens=java.base/jdk.internal.ref=ALL-UNNAMED, --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED, --add-opens=java.base/sun.net.dns=ALL-UNNAMED, --add-opens=java.base/sun.nio=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.base/sun.nio.fs=ALL-UNNAMED, --add-opens=java.base/sun.security.ssl=ALL-UNNAMED, --add-opens=java.base/sun.security.util=ALL-UNNAMED, --add-opens=java.desktop/com.apple.eawt=ALL-UNNAMED, --add-opens=java.desktop/com.apple.eawt.event=ALL-UNNAMED, --add-opens=java.desktop/com.apple.laf=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing=ALL-UNNAMED, --add-opens=java.desktop/java.awt=ALL-UNNAMED, --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/java.awt.font=ALL-UNNAMED, --add-opens=java.desktop/java.awt.image=ALL-UNNAMED, --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text.html.parser=ALL-UNNAMED, --add-opens=java.desktop/sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED, --add-opens=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.java2d=ALL-UNNAMED, --add-opens=java.desktop/sun.lwawt=ALL-UNNAMED, --add-opens=java.desktop/sun.lwawt.macosx=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/sun.swing.text=ALL-UNNAMED, --add-opens=java.management/sun.management=ALL-UNNAMED, --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED, --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED, --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED, --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED, -Xms256m, -Xmx2048m, -Dfile.encoding=UTF-8, -Duser.country=NP, -Duser.language=en, -Duser.variant, -ea]
+2026-11-17 15:40:08,875 [     98]   INFO - #c.i.p.i.b.AppStarter - args: 
+2026-11-17 15:40:08,875 [     98]   INFO - #c.i.p.i.b.AppStarter - library path: /Users/tamrakar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2026-11-17 15:40:08,875 [     98]   INFO - #c.i.p.i.b.AppStarter - boot library path: /Applications/Android Studio.app/Contents/jbr/Contents/Home/lib
+2026-11-17 15:40:08,876 [     99]   INFO - #c.i.p.i.b.AppStarter - locale=en_NP JNU=UTF-8 file.encoding=UTF-8
+    idea.home.path=/Applications/Android Studio.app/Contents
+    idea.config.path=/Users/tamrakar/Desktop/OkHttp Inspector/.intellijPlatform/sandbox/plugin/AI-AI-262.10968.63.2622.16840690/config_runIde
+    idea.system.path=/Users/tamrakar/Desktop/OkHttp Inspector/.intellijPlatform/sandbox/plugin/AI-AI-262.10968.63.2622.16840690/system_runIde
+    idea.plugins.path=/Users/tamrakar/Desktop/OkHttp Inspector/.intellijPlatform/sandbox/plugin/AI-AI-262.10968.63.2622.16840690/plugins_runIde
+    idea.log.path=/Users/tamrakar/Desktop/OkHttp Inspector/.intellijPlatform/sandbox/plugin/AI-AI-262.10968.63.2622.16840690/log_runIde
+2026-11-17 15:40:08,880 [    103]   INFO - #c.i.p.i.b.AppStarter - CPU cores: 10; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@5e1caa4b[Running, parallelism = 9, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@51606146
+2026-11-17 15:40:09,135 [    358]   INFO - #c.i.i.p.PluginManager - Using cached broken plugins file
+2026-11-17 15:40:09,155 [    378]   WARN - #c.i.i.p.PluginManager - Environment-configured module is not found: intellij.rd.client
+2026-11-17 15:40:09,155 [    378]   WARN - #c.i.i.p.PluginManager - Environment-configured module is not found: intellij.platform.split
+2026-11-17 15:40:09,204 [    427]   INFO - #c.i.i.p.PluginManager - Plugin set resolution:
+plugin XPathView is not resolved
+  └ dependent module intellij.xml.langInjection.xpath excluded
+module intellij.maven.model (namespace=jetbrains) is not resolved
+  └ dependent module intellij.repository.search.common excluded
+module intellij.maven (namespace=jetbrains) is not resolved
+  └ dependent module intellij.gradle.java.performance, module intellij.kotlin.projectWizard.maven, module intellij.kotlin.compilerReferenceIndex, module intellij.kotlin.compilerPlugins.support.maven, module intellij.kotlin.compilerPlugins.allopen.maven, module intellij.kotlin.compilerPlugins.noarg.maven, module intellij.kotlin.compilerPlugins.samWithReceiver.maven, module intellij.kotlin.compilerPlugins.serialization.maven, module intellij.kotlin.compilerPlugins.dataframe.maven, module intellij.kotlin.compilerPlugins.lombok.maven, module intellij.kotlin.compilerPlugins.assignment.maven excluded
+  └ dependent module intellij.kotlin.maven excluded
+    └ dependent module intellij.kotlin.onboarding.maven excluded
+plugin com.intellij.modules.jcef is not resolved
+  └ dependent module intellij.markdown.jcef, module intellij.platform.images.jcef excluded
+plugin com.intellij.modules.python is not resolved
+  └ dependent module intellij.sh.python excluded
+plugin training is not resolved
+  └ dependent module intellij.java.featuresTrainer, module intellij.kotlin.featuresTrainer, module intellij.java.ide.customization.training excluded
+plugin com.intellij.modules.idea.community is not resolved
+  └ dependent module intellij.java.promo excluded
+module intellij.libraries.jcef (namespace=jetbrains) is not resolved
+  └ dependent module intellij.performanceTesting.remoteDriver.jcef, module intellij.mermaid.markdown (namespace=com.intellij.mermaid_$implicit) excluded
+plugin com.intellij.modules.idea is not resolved
+  └ dependent <depends> config 'android-plugin-idea.xml' of plugin org.jetbrains.android excluded
+plugin AntSupport is not resolved
+  └ dependent module intellij.groovy.ant excluded
+plugin ByteCodeViewer is not resolved
+  └ dependent module intellij.groovy.byteCodeViewer excluded
+plugin com.intellij.tasks is not resolved
+  └ dependent module intellij.vcs.github.tracker excluded
+2026-11-17 15:40:09,222 [    445]   INFO - #c.i.p.i.b.AppStarter - Loaded bundled plugins: IDEA CORE (262.10968.63), Artifacts Repository Search (262.10968.63.2622.16840690), Git for App Insights (262.10968.63.2622.16840690), Java Bytecode Decompiler (262.10968.63.2622.16840690), Gradle for Java (262.10968.63.2622.16840690), GMD Code Completion (262.10968.63.2622.16840690), Clangd Support (262.10968.63.2622.16840690), Android SDK Upgrade Assistant (262.10968.63.2622.16840690), Toml (262.10968.63.2622.16840690), Recent Files (262.10968.63.2622.16840690), Code Coverage for Java (262.10968.63.2622.16840690), Modal Commit Interface (262.10968.63.2622.16840690), Device Streaming (262.10968.63.2622.16840690), Gemini (262.10968.63.2622.16840690), Structure View (262.10968.63.2622.16840690), Lightbuild AI Plugin (262.10968.63.2622.16840690), HTML Tools (262.10968.63.2622.16840690), Library Modules: Misc (262.10968.63.2622.16840690), JUnit (262.10968.63.2622.16840690), Mercurial (262.10968.63.2622.16840690), Aether Dependency Resolver (262.10968.63.2622.16840690), Markdown (262.10968.63.2622.16840690), Java Internationalization (262.10968.63.2622.16840690), TestNG (262.10968.63.2622.16840690), Eclipse Keymap (262.10968.63.2622.16840690), GitLab (262.10968.63.2622.16840690), Shell Script (262.10968.63.2622.16840690), Gradle (262.10968.63.2622.16840690), Terminal (262.10968.63.2622.16840690), Java (262.10968.63.2622.16840690), Kotlin (262.10968.63.2622.16840690-AS), Navbar (262.10968.63.2622.16840690), WebP (262.10968.63.2622.16840690), Agent Client Protocol (262.10968.63.2622.16840690), Machine Learning Code Completion (262.10968.63.2622.16840690), Images (262.10968.63.2622.16840690), Performance Testing (262.10968.63.2622.16840690), NetBeans Keymap (262.10968.63.2622.16840690), CIDR Debugger (262.10968.63.2622.16840690), TODO Comments (262.10968.63.2622.16840690), Gradle Declarative Support (262.10968.63.2622.16840690), Firebase Services (262.10968.63.2622.16840690), JSON (262.10968.63.2622.16840690), Visual Studio Keymap (262.10968.63.2622.16840690), Properties (262.10968.63.2622.16840690), Test Recorder (262.10968.63.2622.16840690), TextMate Bundles (262.10968.63.2622.16840690), Test Runner (262.10968.63.2622.16840690), Android NDK Support (262.10968.63.2622.16840690), Android (262.10968.63.2622.16840690), Groovy Live Templates (262.10968.63.2622.16840690), App Links Assistant AI (262.10968.63.2622.16840690), YAML (262.10968.63.2622.16840690), Natural Languages (262.10968.63.2622.16840690), Android Design Tools (262.10968.63.2622.16840690), Lightbuild (262.10968.63.2622.16840690), DevKit Runtime (262.10968.63.2622.16840690), Mermaid (262.10968.63.2622.16840690), Bookmarks Manager (262.10968.63.2622.16840690), Copyright (262.10968.63.2622.16840690), EditorConfig (262.10968.63.2622.16840690), Compose Multiplatform (262.10968.63.2622.16840690), Groovy (262.10968.63.2622.16840690), CIDR Base (262.10968.63.2622.16840690), Grid Core (262.10968.63.2622.16840690), Structural Search (262.10968.63.2622.16840690), Android APK Support (262.10968.63.2622.16840690), App Links Assistant (262.10968.63.2622.16840690), Java IDE Customization (262.10968.63.2622.16840690), C/C++ Language Support via Classic Engine (262.10968.63.2622.16840690), Smali Support (262.10968.63.2622.16840690), Jetpack Compose (262.10968.63.2622.16840690), Configuration Script (262.10968.63.2622.16840690), GitHub (262.10968.63.2622.16840690), Gradle DSL Parser Support (262.10968.63.2622.16840690), Git (262.10968.63.2622.16840690), Groovy Scripting (262.10968.63.2622.16840690), Services View (262.10968.63.2622.16840690)
+2026-11-17 15:40:09,222 [    445]   INFO - #c.i.p.i.b.AppStarter - Loaded custom plugins: Network Inspector (OkHttp & Ktor) (0.1.0)
+2026-11-17 15:40:09,371 [    594]   WARN - #c.i.p.instanceContainer - InstanceNotOverridableException: Incorrect override for com.intellij.openapi.project.impl.ProjectStoreFactory: com.intellij.configurationScript.providers.ConfigurationScriptProjectStoreFactory overrides com.intellij.configurationStore.PlatformLangProjectStoreFactory even though the existing implementation is not overridable (not declared as 'open=true')
+2026-11-17 15:40:09,375 [    598]   WARN - #c.i.p.instanceContainer - InstanceNotOverridableException: Incorrect override for com.intellij.openapi.application.IdeUrlTrackingParametersProvider: com.intellij.openapi.application.IdeUrlTrackingParametersProvider overrides com.intellij.ide.customization.UtmIdeUrlTrackingParametersProvider even though the existing implementation is not overridable (not declared as 'open=true')
+2026-11-17 15:40:09,490 [    713]   INFO - #c.i.u.i.PageCacheUtils - File page caching params:
+	DEFAULT_PAGE_SIZE: 10485760
+	Direct memory to use, max: 2126512128
+	FilePageCache: regular
+	Regular FilePageCache: 629145600 bytes
+	DirectByteBuffers pool: 104857600 bytes
+2026-11-17 15:40:09,503 [    726]   INFO - #c.i.p.e.n.i.EelMultiRoutingFileSystemBackendInitializationService - Eel MultiRoutingFileSystem backend is initialized
+2026-11-17 15:40:09,518 [    741]   INFO - #c.i.a.o.PathMacrosImpl - Loaded path macros: {}
+2026-11-17 15:40:09,550 [    773]   INFO - #c.i.o.v.n.i.VfsData - Use SoftReference in VFS cache: true
+2026-11-17 15:40:09,563 [    786]   INFO - c.i.o.u.r.overrides - Plugin org.jetbrains.android overrides the registry key debugger.preload.types.hierarchy declared by plugin com.intellij.java (intellij.java.debugger.impl.xml).
+2026-11-17 15:40:09,563 [    786]   INFO - c.i.o.u.r.overrides - Plugin org.jetbrains.android overrides the registry key debugger.emulate.method.breakpoints declared by plugin com.intellij.java (intellij.java.debugger.impl.xml).
+2026-11-17 15:40:09,563 [    786]   INFO - c.i.o.u.r.overrides - Plugin org.jetbrains.android (project-system-gradle-plugin-androidstudio.xml) overrides the registry key unknown.sdk declared by plugin com.intellij.
+2026-11-17 15:40:09,564 [    787]   INFO - c.i.o.u.r.overrides - Plugin org.jetbrains.android (project-system-gradle-plugin-androidstudio.xml) overrides the registry key unknown.sdk.auto declared by plugin com.intellij.
+2026-11-17 15:40:09,564 [    787]   INFO - c.i.o.u.r.overrides - Plugin org.jetbrains.android (project-system-gradle-plugin-androidstudio.xml) overrides the registry key unknown.sdk.modal.jps declared by plugin com.intellij.
+2026-11-17 15:40:09,564 [    787]   INFO - c.i.o.u.r.overrides - Plugin org.jetbrains.android (project-system-gradle-plugin-androidstudio.xml) overrides the registry key unknown.sdk.show.editor.actions declared by plugin com.intellij.
+2026-11-17 15:40:09,564 [    787]   INFO - c.i.o.u.r.overrides - Plugin org.jetbrains.android (project-system-gradle-plugin-androidstudio.xml) overrides the registry key gradle.phased.sync.enabled declared by plugin com.intellij.gradle (intellij.gradle.xml).
+2026-11-17 15:40:09,564 [    787]   INFO - c.i.o.u.r.overrides - Plugin org.jetbrains.android (project-system-gradle-plugin-androidstudio.xml) overrides the registry key gradle.daemon.jvm.criteria.new.project declared by plugin com.intellij.gradle (intellij.gradle.xml).
+2026-11-17 15:40:09,564 [    787]   INFO - c.i.o.u.r.overrides - Plugin org.jetbrains.android (project-system-gradle-plugin-androidstudio.xml) overrides the registry key gradle.daemon.jvm.criteria.suggest.migration declared by plugin org.jetbrains.kotlin (kotlin.gradle.gradle-java.xml).
+2026-11-17 15:40:09,564 [    787]   INFO - c.i.o.u.r.overrides - Plugin org.jetbrains.android (android-plugin-androidstudio.xml) overrides the registry key platform.feedback declared by plugin com.intellij (intellij.platform.feedback.xml).
+2026-11-17 15:40:09,639 [    862]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses names enumerator over mmapped file
+2026-11-17 15:40:09,640 [    863]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses streamlined attributes storage (over mmapped file)
+2026-11-17 15:40:09,641 [    864]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses OverMMappedFile(pageSize=67108864, acquireStorageOwnership=true) storage for main file records table
+2026-11-17 15:40:09,641 [    864]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses content storage over memory-mapped file, with compression algo: LZ4[ > 8000b ]
+2026-11-17 15:40:09,692 [    915]   INFO - #c.i.l.LocalizationStateServiceImpl - [i18n] Localization property from registry is null
+2026-11-17 15:40:09,697 [    920]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS: impl (expected) version=65, 15 file records, 0 content blobs
+2026-11-17 15:40:09,702 [    925]   INFO - #c.i.o.u.r.RegistryManager - Registry values changed by user: i18n.locale = , ide.experimental.ui = true, idea.plugins.compatible.build = 
+2026-11-17 15:40:09,703 [    926]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS initialized: 73 ms, 0 failed attempts, 0 error(s) were recovered
+2026-11-17 15:40:09,704 [    927]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS scanned: file-by-name index was populated
+2026-11-17 15:40:09,727 [    950]   INFO - #c.i.o.u.LowMemoryWatcherManager - Use ExponentiallySmoothingTracker(90000 ms)
+2026-11-17 15:40:09,732 [    955]   INFO - #c.i.o.u.LowMemoryWatcherManager - Subscribing to MemoryPool[G1 Old Gen]{max: 2147483648, threshold: 2040109440 (0.95 * max)}
+2026-11-17 15:40:09,736 [    959]   INFO - #c.i.o.u.LowMemoryWatcherManager - Schedule GC-time updating: each 15000ms
+2026-11-17 15:40:09,740 [    963]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS.MAX_FILE_LENGTH_TO_CACHE: 1048576
+2026-11-17 15:40:09,746 [    969]   INFO - #c.i.i.p.ExpiredPluginsState - Marking plugins 'skipped': []
+2026-11-17 15:40:09,778 [   1001]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Starting file watcher: /Applications/Android Studio.app/Contents/bin/fsnotifier
+2026-11-17 15:40:09,886 [   1109]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Native file watcher is operational.
+2026-11-17 15:40:09,937 [   1160]   WARN - #c.i.o.a.Application - No URL bundle (CFBundleURLTypes) is defined in the main bundle.
+To be able to open external links, specify protocols in the app layout section of the build file.
+Example: args.urlSchemes = ["your-protocol"] will handle following links: your-protocol://open?file=file&line=line
+2026-11-17 15:40:09,948 [   1171]   INFO - #c.i.u.m.s.Menu - use new ScreenMenuBar implementation
+2026-11-17 15:40:09,959 [   1182]   INFO - #c.i.p.k.b.BackendKernelServiceKt - Backend started Kernel
+2026-11-17 15:40:09,960 [   1183]   WARN - #c.i.u.n.s.ConfirmingTrustManager - Received an empty list of custom trusted root certificates from the system. Check log above for possible errors, enable debug logging in category 'org.jetbrains.nativecerts' for more information
+2026-11-17 15:40:09,963 [   1186]   INFO - #c.i.u.n.s.CertificateManager - Default SSL context initialized
+2026-11-17 15:40:10,001 [   1224]   INFO - #c.i.c.CompilerWorkspaceConfiguration - Available processors: 10
+2026-11-17 15:40:10,002 [   1225]   INFO - c.i.p.i.IdeFingerprint - Calculated dependencies fingerprint in 586 ms (hash=1vtb40xkd4ld3, buildTime=1793865000, appVersion=AI-262.10968.63.2622.16840690)
+2026-11-17 15:40:10,014 [   1237]   WARN - #c.i.p.instanceContainer - InstanceNotOverridableException: Incorrect override for com.intellij.openapi.roots.ui.configuration.ProjectSettingsService: com.android.tools.idea.gradle.structure.AndroidProjectSettingsServiceImpl overrides com.intellij.openapi.roots.ui.configuration.IdeaProjectSettingsService even though the existing implementation is not overridable (not declared as 'open=true')
+2026-11-17 15:40:10,014 [   1237]   INFO - #com.android.studio.ml.onboarding.common.v2.StudioModelsOnboardingControllerImpl$Companion - StudioModelsOnboardingControllerImpl initialized
+2026-11-17 15:40:10,059 [   1282]   INFO - #c.i.u.i.c.d.IndexWriter - Use com.intellij.util.indexing.contentQueue.dev.MultiThreadedWithSuspendIndexWriter@597f9435 as (parallel) index writer implementation
+2026-11-17 15:40:10,061 [   1284]   INFO - #c.i.u.i.i.SlruIndexStorageCacheProvider - SLRU cache will be used for indexes
+2026-11-17 15:40:10,062 [   1285]   INFO - #c.i.u.i.i.MapIndexStorageCacheProvider$Companion - Default index storage cache provider [com.intellij.util.indexing.impl.SlruIndexStorageCacheProvider@3795d58] is used
+2026-11-17 15:40:10,122 [   1345]   WARN - #c.i.o.e.c.i.EditorColorsManagerImpl - Cannot find scheme: Classic Light from plugins: com.intellij
+2026-11-17 15:40:10,144 [   1367]   INFO - #c.i.o.a.ActionManager - Re-registering action stub for CompileDirty as CompileDirty_renamedStub_382271794
+2026-11-17 15:40:10,145 [   1368]   INFO - #c.i.o.a.ActionManager - Re-registering action stub for MakeModule as MakeModule_renamedStub_93357580
+2026-11-17 15:40:10,145 [   1368]   INFO - #c.i.o.a.ActionManager - Re-registering action stub for CompileProject as CompileProject_renamedStub_1664290070
+2026-11-17 15:40:10,145 [   1368]   INFO - #c.i.o.a.ActionManager - Re-registering action stub for Compile as Compile_renamedStub_1378680519
+2026-11-17 15:40:10,145 [   1368]   INFO - #c.i.o.a.ActionManager - Re-registering action stub for Build as Build_renamedStub_1354050369
+2026-11-17 15:40:10,146 [   1369]   INFO - #c.i.o.a.ActionManager - Re-registering action stub for CompileFile as CompileFile_renamedStub_1026378512
+2026-11-17 15:40:10,154 [   1377]   INFO - #com.google.aiplugin.rag.doc.KbPrebuiltIndexerService$Companion - Opening prebuilt AKB index KbZip(DOWNLOADED, v=1, buildCl=993367749) /Users/tamrakar/Desktop/OkHttp Inspector/.intellijPlatform/sandbox/plugin/AI-AI-262.10968.63.2622.16840690/system_runIde/caches/gemini/kb/dac.zip
+2026-11-17 15:40:10,173 [   1396]   INFO - #c.i.u.i.FileBasedIndexImpl - Loading indexes
+2026-11-17 15:40:10,196 [   1419]   INFO - #c.i.f.n.TrigramIndexFilter - Filter exclude extensions is enabled: CustomizableExcludeExtensions([com.intellij.java.JavaLibrarySourcesExcludingIndexFilterExtension@54e3ef4b])
+2026-11-17 15:40:10,202 [   1425]   INFO - #c.i.u.i.i.s.PersistentWriteAheadLogFactory - Opening persistent Write-Ahead Log over mmapped file (/Users/tamrakar/Desktop/OkHttp Inspector/.intellijPlatform/sandbox/plugin/AI-AI-262.10968.63.2622.16840690/system_runIde/index/write-ahead-log.{wal,paths})
+2026-11-17 15:40:10,214 [   1437]   INFO - #c.i.p.u.i.s.c.WriteAheadLogOverCircularBuffer - WAL wasn't closed properly: sad but normal these days
+2026-11-17 15:40:10,214 [   1437]   INFO - #c.i.p.u.i.s.c.WriteAheadLogOverCircularBuffer - No unprocessed records left => old pathsEnumerator is useless => drop it
+2026-11-17 15:40:10,222 [   1445]   INFO - com.android.cliserver.CliServer - Server started, listening on localhost/127.0.0.1:64324
+2026-11-17 15:40:10,274 [   1497]   INFO - #c.i.o.v.n.p.FSRecords - VFS health-check enabled: first after 600000 ms, and each following 43200000 ms, wrap in RA: true
+2026-11-17 15:40:10,391 [   1614]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'gradle.phased.sync.enabled' has changed to 'false' by SYSTEM
+2026-11-17 15:40:10,403 [   1626]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'gradle.phased.sync.bridge.disabled' has changed to 'false' by SYSTEM
+2026-11-17 15:40:10,419 [   1642]   INFO - #com.android.studio.ml.bot.skills.UserSkillsDirectoryInitializer$Companion - Skills directory /Users/tamrakar/.agents/skills already exists; skipping directory creation
+2026-11-17 15:40:10,439 [   1662]   INFO - #c.i.i.s.e.StatisticsEventLoggerProvider - Initialize event logger provider for 'MP'
+2026-11-17 15:40:10,445 [   1668]   INFO - #c.i.i.s.e.StatisticsEventLoggerProvider - Initialize event logger provider for 'TRACE'
+2026-11-17 15:40:10,449 [   1672]   INFO - #c.i.i.s.e.StatisticsEventLoggerProvider - Initialize event logger provider for 'ML'
+2026-11-17 15:40:10,449 [   1672]   INFO - #c.i.i.s.e.StatisticsEventLoggerProvider - Initialize event logger provider for 'FUS'
+2026-11-17 15:40:10,451 [   1674]   INFO - #c.i.i.s.e.StatisticsEventLoggerProvider - Initialize event logger provider for 'FUS'
+2026-11-17 15:40:10,466 [   1689]   INFO - #com.android.studio.ml.onboarding.common.v2.StudioModelsOnboardingControllerImpl$Companion - Auth state changed: AuthState.LoggedOut(isAuthorized=false)
+2026-11-17 15:40:10,467 [   1690]   INFO - #c.i.o.u.i.UpdateCheckerService - channel: release
+2026-11-17 15:40:10,469 [   1692]   INFO - #c.i.o.u.i.UpdateCheckerService - channel set to 'release' by com.android.tools.idea.AndroidStudioUpdateStrategyCustomization
+2026-11-17 15:40:10,479 [   1702]   INFO - #c.i.p.j.JdkEx - === TabbingMode: available ===
+2026-11-17 15:40:10,479 [   1702]   INFO - #c.i.u.m.MergeAllWindowsAction - === FullScreenTabSupport: frames: 0 ===
+2026-11-17 15:40:10,481 [   1704]   INFO - #c.i.l.LocalizationStateServiceImpl - [i18n] Localization property from registry is null
+2026-11-17 15:40:10,491 [   1714]   INFO - #o.j.i.BuiltInServerManager - built-in server started, port 63344
+2026-11-17 15:40:10,498 [   1721]   WARN - com.google.aiplugin.lucene.internal.vectorization.VectorizationProvider - Java vector incubator module is not readable. For optimal vector performance, pass '--add-modules jdk.incubator.vector' to enable Vector API.
+2026-11-17 15:40:10,503 [   1726]   INFO - #c.i.c.m.CodeInsightContextEnabling - multiverse is enabled
+2026-11-17 15:40:10,508 [   1731]   INFO - #c.i.u.m.t.TouchbarSupport - touchbar disabled: registry
+2026-11-17 15:40:10,516 [   1739]   INFO - #com.android.tools.idea.tracer.StudioTracingController$Companion - Tracing Driver initialized and disabled.
+2026-11-17 15:40:10,519 [   1742]   INFO - #c.i.u.i.FileBasedIndexImpl - Using simple flusher for indexes
+2026-11-17 15:40:10,524 [   1747]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 347 ms. Initialized indexes: [FilenameIndex, filetypes, java.source.module.name, HtmlTagIdIndex, java.null.method.argument, java.auto.module.name, Trigram.Index, java.external.annotations, java.fun.expression, fileIncludes, java.binary.plus.expression, bytecodeAnalysis, FrameworkDetectionIndex, IdIndex, TodoIndex, XmlTagNames, XmlNamespaces, SchemaTypeInheritance, RelaxSymbolIndex, DomFileIndex, html5.custom.attributes.index, FileNameWithoutExtensionIndex, clang.format.lightIndex, xmlProperties, json.file.root.values, org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex, editorconfig.index.name, org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinPartialPackageNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex, KotlinPackageSourcesMemberNamesIndex, org.jetbrains.kotlin.idea.vfilefinder.KlibMetaFileIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinJvmModuleAnnotationsIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinBuiltInsMetadataIndex, org.jetbrains.kotlin.idea.vfilefinder.KotlinStdlibIndex, KotlinTopLevelCallableByPackageShortNameIndex, KotlinBinaryRootToPackageIndex, KotlinTopLevelClassLikeDeclarationByPackageShortNameIndex, BindingXmlIndex, NavXmlIndex, Stubs, com.android.tools.idea.model.AndroidManifestIndex.NAME, android.ndk.jni.nativemethodindex, com.android.tools.idea.dagger.index.DaggerIndex, com.google.aiplugin.rag.bm25.lucindex].
+2026-11-17 15:40:10,525 [   1748]   INFO - #o.j.k.i.script - [KOTLIN_SCRIPTING] processing definitions provider org.jetbrains.kotlin.idea.core.script.k2.definitions.DefinitionFromDependenciesProvider
+2026-11-17 15:40:10,530 [   1753] SEVERE - #c.i.u.SlowOperations - Slow operations are prohibited on EDT. See SlowOperations.assertSlowOperationsAreAllowed javadoc.
+java.lang.Throwable: Slow operations are prohibited on EDT. See SlowOperations.assertSlowOperationsAreAllowed javadoc.
+	at com.intellij.openapi.diagnostic.Logger.error(Logger.java:378)
+	at com.intellij.util.SlowOperations.logError(SlowOperations.java:180)
+	at com.intellij.util.SlowOperations.assertSlowOperationsAreAllowed(SlowOperations.java:128)
+	at com.intellij.util.indexing.FileBasedIndexScanUtil.ensureUpToDate(FileBasedIndexScanUtil.java:51)
+	at com.intellij.util.indexing.FileBasedIndexScanUtil.processFilesContainingAnyKey(FileBasedIndexScanUtil.java:250)
+	at com.intellij.util.indexing.FileBasedIndexImpl.processFilesContainingAnyKey(FileBasedIndexImpl.java:1303)
+	at com.intellij.psi.search.FilenameIndex.getVirtualFilesByNames(FilenameIndex.java:246)
+	at com.intellij.psi.search.FilenameIndex.getVirtualFilesByName(FilenameIndex.java:81)
+	at org.jetbrains.kotlin.idea.core.script.k2.definitions.ScriptTemplatesFromDependenciesCache.getOrDiscover$lambda$0$0(DefinitionFromDependenciesProvider.kt:85)
+	at com.intellij.openapi.application.ActionsKt.runReadActionBlocking(actions.kt:47)
+	at org.jetbrains.kotlin.idea.core.script.k2.definitions.ScriptTemplatesFromDependenciesCache.getOrDiscover$lambda$0(DefinitionFromDependenciesProvider.kt:83)
+	at org.jetbrains.kotlin.caches.project.CacheUtilsKt.cache$lambda$0(CacheUtils.kt:49)
+	at com.intellij.psi.impl.AbstractPsiCachedValue.doCompute(PsiCachedValueImpl.kt:21)
+	at com.intellij.util.CachedValueBase.lambda$getValueWithLock$3(CachedValueBase.java:304)
+	at com.intellij.util.CachedValueBase.computeData(CachedValueBase.java:42)
+	at com.intellij.util.CachedValueBase.lambda$getValueWithLock$2(CachedValueBase.java:304)
+	at com.intellij.openapi.util.RecursionManager$1.computePreventingRecursion(RecursionManager.java:124)
+	at com.intellij.openapi.util.RecursionGuard.doPreventingRecursion(RecursionGuard.java:28)
+	at com.intellij.openapi.util.RecursionManager.doPreventingRecursion(RecursionManager.java:79)
+	at com.intellij.util.CachedValueBase.getValueWithLock(CachedValueBase.java:305)
+	at com.intellij.psi.impl.AbstractPsiCachedValue.getValue(PsiCachedValueImpl.kt:15)
+	at com.intellij.util.CachedValuesManagerImpl.getCachedValue(CachedValuesManagerImpl.java:98)
+	at org.jetbrains.kotlin.caches.project.CacheUtilsKt.cache(CacheUtils.kt:46)
+	at org.jetbrains.kotlin.caches.project.CacheUtilsKt.cacheByClass(CacheUtils.kt:37)
+	at org.jetbrains.kotlin.idea.core.script.k2.definitions.ScriptTemplatesFromDependenciesCache.getOrDiscover(DefinitionFromDependenciesProvider.kt:79)
+	at org.jetbrains.kotlin.idea.core.script.k2.definitions.DefinitionFromDependenciesProvider.getDefinitionClasses(DefinitionFromDependenciesProvider.kt:44)
+	at org.jetbrains.kotlin.idea.core.script.shared.definition.BridgeScriptDefinitionsContributor._get_definitions_$lambda$0(BridgeDefinitionsContributor.kt:29)
+	at kotlin.sequences.FlatteningSequence$iterator$1.ensureItemIterator(Sequences.kt:363)
+	at kotlin.sequences.FlatteningSequence$iterator$1.hasNext(Sequences.kt:351)
+	at kotlin.collections.CollectionsKt__MutableCollectionsKt.addAll(MutableCollections.kt:134)
+	at org.jetbrains.kotlin.idea.core.script.k2.definitions.ScriptDefinitionProviderImpl$Companion.computeOrGetDefinitions$lambda$0(ScriptDefinitionProviderImpl.kt:75)
+	at org.jetbrains.kotlin.caches.project.CacheUtilsKt.cache$lambda$0(CacheUtils.kt:49)
+	at com.intellij.psi.impl.AbstractPsiCachedValue.doCompute(PsiCachedValueImpl.kt:21)
+	at com.intellij.util.CachedValueBase.lambda$getValueWithLock$3(CachedValueBase.java:304)
+	at com.intellij.util.CachedValueBase.computeData(CachedValueBase.java:42)
+	at com.intellij.util.CachedValueBase.lambda$getValueWithLock$2(CachedValueBase.java:304)
+	at com.intellij.openapi.util.RecursionManager$1.computePreventingRecursion(RecursionManager.java:124)
+	at com.intellij.openapi.util.RecursionGuard.doPreventingRecursion(RecursionGuard.java:28)
+	at com.intellij.openapi.util.RecursionManager.doPreventingRecursion(RecursionManager.java:79)
+	at com.intellij.util.CachedValueBase.getValueWithLock(CachedValueBase.java:305)
+	at com.intellij.psi.impl.AbstractPsiCachedValue.getValue(PsiCachedValueImpl.kt:15)
+	at com.intellij.util.CachedValuesManagerImpl.getCachedValue(CachedValuesManagerImpl.java:98)
+	at org.jetbrains.kotlin.caches.project.CacheUtilsKt.cache(CacheUtils.kt:46)
+	at org.jetbrains.kotlin.caches.project.CacheUtilsKt.cacheByClass(CacheUtils.kt:37)
+	at org.jetbrains.kotlin.idea.core.script.k2.definitions.ScriptDefinitionProviderImpl$Companion.computeOrGetDefinitions(ScriptDefinitionProviderImpl.kt:55)
+	at org.jetbrains.kotlin.idea.core.script.k2.definitions.ScriptDefinitionProviderImpl$Companion.access$computeOrGetDefinitions(ScriptDefinitionProviderImpl.kt:54)
+	at org.jetbrains.kotlin.idea.core.script.k2.definitions.ScriptDefinitionProviderImpl.getDefinitionsFromSources(ScriptDefinitionProviderImpl.kt:38)
+	at org.jetbrains.kotlin.idea.core.script.k2.definitions.ScriptDefinitionProviderImpl.getCurrentDefinitions(ScriptDefinitionProviderImpl.kt:32)
+	at com.android.tools.idea.startup.GradleSpecificInitializer.lambda$configureKotlinScripting$0(GradleSpecificInitializer.java:156)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:246)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$100(TransactionGuardImpl.java:22)
+	at com.intellij.openapi.application.TransactionGuardImpl$1.run(TransactionGuardImpl.java:208)
+	at com.intellij.openapi.application.RunnableToLambda.invoke(coroutines.kt:343)
+	at com.intellij.openapi.application.RunnableToLambda.invoke(coroutines.kt:341)
+	at com.intellij.platform.locking.impl.NestedLocksThreadingSupport.runWriteIntentReadAction(NestedLocksThreadingSupport.kt:711)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runIntendedWriteActionOnCurrentThread(ApplicationImpl.java:1109)
+	at com.intellij.openapi.application.impl.ApplicationImpl$7.lambda$run$0(ApplicationImpl.java:663)
+	at com.intellij.concurrency.ThreadContext.installThreadContext(threadContext.kt:307)
+	at com.intellij.openapi.application.impl.ApplicationImpl$7.run(ApplicationImpl.java:661)
+	at com.intellij.util.concurrency.ChildContext$runInChildContext$1.invoke(propagation.kt:193)
+	at com.intellij.util.concurrency.ChildContext$runInChildContext$1.invoke(propagation.kt:193)
+	at com.intellij.util.concurrency.ChildContext.runInChildContext(propagation.kt:199)
+	at com.intellij.util.concurrency.ChildContext.runInChildContext(propagation.kt:193)
+	at com.intellij.util.concurrency.ContextRunnable.lambda$run$0(ContextRunnable.java:26)
+	at com.intellij.concurrency.ThreadContext.resetThreadContext(threadContext.kt:295)
+	at com.intellij.util.concurrency.ContextRunnable.run(ContextRunnable.java:25)
+	at com.intellij.openapi.application.impl.NonBlockingFlushQueue.runNextEvent$lambda$1$1(NonBlockingFlushQueue.kt:332)
+	at com.intellij.concurrency.ThreadContext.resetThreadContext(threadContext.kt:295)
+	at com.intellij.openapi.application.impl.NonBlockingFlushQueue.runNextEvent$lambda$1(NonBlockingFlushQueue.kt:325)
+	at com.intellij.platform.locking.impl.NestedLocksThreadingSupport.tryRunWriteIntentReadAction(NestedLocksThreadingSupport.kt:754)
+	at com.intellij.openapi.application.impl.NonBlockingFlushQueue.runNextEvent(NonBlockingFlushQueue.kt:321)
+	at com.intellij.openapi.application.impl.NonBlockingFlushQueue.flushNow(NonBlockingFlushQueue.kt:299)
+	at com.intellij.openapi.application.impl.NonBlockingFlushQueue.FLUSH_NOW$lambda$0(NonBlockingFlushQueue.kt:158)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:731)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:584)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$0$0$0(IdeEventQueue.kt:384)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$0(IdeEventQueue.kt:1122)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:106)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:1122)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$0(IdeEventQueue.kt:382)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:422)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+2026-11-17 15:40:10,533 [   1756] SEVERE - #c.i.u.SlowOperations - Android Studio Rabbit 2 | 2026.2.2 Patch 1  Build #AI-262.10968.63.2622.16840690
+2026-11-17 15:40:10,533 [   1756] SEVERE - #c.i.u.SlowOperations - JDK: 25.0.4; VM: OpenJDK 64-Bit Server VM; Vendor: JetBrains s.r.o.
+2026-11-17 15:40:10,533 [   1756] SEVERE - #c.i.u.SlowOperations - OS: Mac OS X
+2026-11-17 15:40:10,533 [   1756] SEVERE - #c.i.u.SlowOperations - Last Action: 
+2026-11-17 15:40:10,547 [   1770]   INFO - #o.j.k.i.script - [KOTLIN_SCRIPTING] processing definitions provider com.android.tools.idea.script.IdeScriptDefinitionProvider
+2026-11-17 15:40:10,675 [   1898]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 150 ms. Initialized stub indexes: {org.jetbrains.kotlin.idea.stubindex.KotlinPropertyShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTypeAliasShortNameIndex, gr.anonymous.class, java.method.parameter.types, java.annotations, org.jetbrains.kotlin.idea.stubindex.KotlinExactPackagesIndex, gr.class.super, org.jetbrains.kotlin.idea.stubindex.KotlinFullClassNameIndex, KotlinTopLevelExpectFunctionFqNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinScriptFqnIndex, java.unnamed.class, gr.annot.members, java.class.shortname, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelClassByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelTypeAliasFqNameIndex, markdown.header, KotlinTopLevelFunctionByPackageIndex, gr.field.name, KotlinTopLevelTypeAliasByPackageIndex, org.jetbrains.kotlin.idea.stubindex.KotlinSubclassObjectNameIndex, KotlinFileFacadeClassByPackageIndex, dom.namespaceKey, KotlinProbablyNothingFunctionShortNameIndex, java.field.name, org.jetbrains.kotlin.idea.stubindex.KotlinInnerTypeAliasClassIdIndex, jvm.static.member.type, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeShortNameIndex, java.record.component.name, KotlinTopLevelExtensionsByReceiverTypeIndex, gr.script.class, KotlinProbablyContractedFunctionShortNameIndex, java.method.name, gr.script.fqn.s, gr.class.fqn.s, KotlinTopLevelExpectPropertyFqNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelFunctionFqnNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinSuperClassIndex, dom.elementClass, properties.index, org.jetbrains.kotlin.idea.stubindex.KotlinFilePartClassIndex, KotlinProbablyInjectedFunctionShortNameIndex, java.class.fqn, org.jetbrains.kotlin.idea.stubindex.KotlinMultifileClassPartIndex, java.class.extlist, org.jetbrains.kotlin.idea.stubindex.KotlinTopLevelPropertyFqnNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFunctionShortNameIndex, org.jetbrains.kotlin.idea.stubindex.KotlinFileFacadeFqNameIndex, java.module.name, org.jetbrains.kotlin.idea.stubindex.KotlinAnnotationsIndex, KotlinTypeAliasByExpansionShortNameIndex, KotlinOverridableInternalMembersShortNameIndex, gr.annot.method.name, KotlinTopLevelPropertyByPackageIndex, gr.method.name, kotlin.primeIndexKey, markdown.header.anchor, org.jetbrains.kotlin.idea.stubindex.KotlinClassShortNameIndex, jvm.static.member.name, org.jetbrains.kotlin.idea.stubindex.KotlinJvmNameAnnotationIndex, KotlinProbablyNothingPropertyShortNameIndex, KotlinExtensionsInObjectsByReceiverTypeIndex, java.anonymous.baseref}.
+2026-11-17 15:40:10,709 [   1932]   INFO - #c.i.o.a.i.NonBlockingReadActionImpl - OTel monitoring for NonBlockingReadAction is enabled
+2026-11-17 15:40:10,732 [   1955]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Loading global entities com.intellij.platform.workspace.jps.entities.SdkEntity from files
+2026-11-17 15:40:10,734 [   1957]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Loading global entities com.intellij.platform.workspace.jps.entities.LibraryEntity from files
+2026-11-17 15:40:10,745 [   1968]   INFO - #o.j.a.s.AndroidSdkUtils - Found Studio home directory at: '/Applications/Android Studio.app/Contents'
+2026-11-17 15:40:10,745 [   1968]   INFO - #o.j.a.s.AndroidSdkUtils - Looking for Android SDK at '/Applications/Android Studio.app/Contents/sdk'
+2026-11-17 15:40:10,745 [   1968]   INFO - #o.j.a.s.AndroidSdkUtils - Looking for Android SDK at '/Applications/Android Studio.app/sdk'
+2026-11-17 15:40:10,746 [   1969]   INFO - #o.j.a.s.AndroidSdkUtils - Unable to locate SDK within the Android studio installation.
+2026-11-17 15:40:10,746 [   1969]   INFO - #o.j.a.s.AndroidSdkUtils - ANDROID_HOME environment variable: '/Users/tamrakar/Library/Android/sdk'
+2026-11-17 15:40:10,908 [   2131]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/addons_list-7.xml
+2026-11-17 15:40:10,910 [   2133]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://dl.google.com/android/repository/addons_list-7.xml
+2026-11-17 15:40:11,091 [   2314]   INFO - #c.i.u.i.HttpRequests - Application is not initialized yet; Using default SSL configuration to connect to https://plugins.jetbrains.com/files/brokenPlugins.json
+2026-11-17 15:40:11,703 [   2926]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/android/sys-img2-5.xml
+2026-11-17 15:40:11,704 [   2927]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-automotive/sys-img2-5.xml
+2026-11-17 15:40:11,704 [   2927]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-automotive-distantdisplay/sys-img2-5.xml
+2026-11-17 15:40:11,706 [   2929]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/repository2-3.xml
+2026-11-17 15:40:11,706 [   2929]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/repository2-4.xml
+2026-11-17 15:40:11,707 [   2930]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-wear/sys-img2-5.xml
+2026-11-17 15:40:11,707 [   2930]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-tv/sys-img2-5.xml
+2026-11-17 15:40:11,707 [   2930]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-wear-cn/sys-img2-5.xml
+2026-11-17 15:40:11,707 [   2930]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/android-desktop/sys-img2-5.xml
+2026-11-17 15:40:11,707 [   2930]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_atd/sys-img2-5.xml
+2026-11-17 15:40:11,707 [   2930]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/google-tv/sys-img2-5.xml
+2026-11-17 15:40:11,708 [   2931]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/aosp_atd/sys-img2-5.xml
+2026-11-17 15:40:11,708 [   2931]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_apis/sys-img2-5.xml
+2026-11-17 15:40:11,709 [   2932]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/sys-img2-5.xml
+2026-11-17 15:40:11,709 [   2932]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_apis_tablet/sys-img2-5.xml
+2026-11-17 15:40:11,709 [   2932]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/aosp_tablet/sys-img2-5.xml
+2026-11-17 15:40:11,710 [   2933]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_playstore_tablet/sys-img2-5.xml
+2026-11-17 15:40:11,710 [   2933]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/addon2-4.xml
+2026-11-17 15:40:11,710 [   2933]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/sys-img/google_xr/sys-img2-5.xml
+2026-11-17 15:40:11,710 [   2933]   INFO - #com.android.tools.idea.progress.RawProgressReporterAdapter - Downloading https://dl.google.com/android/repository/glass/addon2-4.xml
+2026-11-17 15:40:13,298 [   4521]   INFO - #c.i.i.p.m.MarketplaceRequests - Looking for the last compatible plugin updates for:
+[]
+send machine ID: true
+2026-11-17 15:40:13,553 [   4776]   INFO - #com.android.tools.idea.diagnostics.error.AndroidStudioErrorReportSubmitter - Exception signature: com.android.diagnostic.LoggerErrorMessage at com.intellij.util.SlowOperations.logError-7bc14418, dynamic signature: com.android.diagnostic.LoggerErrorMessage at com.intellij.util.SlowOperations.logError-9818e770, report ID: 548f07e888400000
+2026-11-17 15:40:22,597 [  13820]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'i18n.locale' has changed to '' by SYSTEM
+2026-11-17 15:40:22,600 [  13823]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.SdkEntity to files
+2026-11-17 15:40:22,601 [  13824]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities com.intellij.platform.workspace.jps.entities.LibraryEntity to files
+2026-11-17 15:40:22,630 [  13853]   INFO - #c.i.a.o.PathMacrosImpl - Saved path macros: {}
+2026-11-17 15:40:22,641 [  13864]   INFO - #c.i.i.s.EventLogApplicationLifecycleListener - Statistics. Don't start external uploader because there are no enabled logger providers
+2026-11-17 15:40:22,642 [  13865]   INFO - #c.i.i.s.e.u.EventLogExternalUploader - Statistics. Don't start external uploader because sending logs is disabled for all recorders
+2026-11-17 15:40:22,649 [  13872]   INFO - #c.i.o.f.i.FileTypeDetectionService - 0 auto-detected files. Detection took 0 ms
+2026-11-17 15:40:22,652 [  13875]   INFO - #o.j.i.BuiltInServer - web server stopped
+2026-11-17 15:40:22,653 [  13876]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Watcher terminated with exit code 0
+2026-11-17 15:40:22,655 [  13878]   INFO - #c.i.d.JVMResponsivenessMonitor - Sampling thread interrupted -> stop sampling
+2026-11-17 15:40:22,655 [  13878]   INFO - #c.i.d.JVMResponsivenessMonitor - Sampling thread exiting normally
+2026-11-17 15:40:22,664 [  13887]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose started
+2026-11-17 15:40:22,676 [  13899]   INFO - #c.i.p.s.StubIndexImpl - StubIndexExtension-s were unloaded
+2026-11-17 15:40:22,676 [  13899]   INFO - #c.i.p.s.SerializationManagerImpl - Start shutting down /Users/tamrakar/Desktop/OkHttp Inspector/.intellijPlatform/sandbox/plugin/AI-AI-262.10968.63.2622.16840690/system_runIde/index/rep.names
+2026-11-17 15:40:22,676 [  13899]   INFO - #c.i.p.s.SerializationManagerImpl - Finished shutting down /Users/tamrakar/Desktop/OkHttp Inspector/.intellijPlatform/sandbox/plugin/AI-AI-262.10968.63.2622.16840690/system_runIde/index/rep.names
+2026-11-17 15:40:22,676 [  13899]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose completed in 12ms.
+2026-11-17 15:40:22,750 [  13973]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS disconnect started
+2026-11-17 15:40:22,751 [  13974]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS closing
+2026-11-17 15:40:22,751 [  13974]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS disconnect completed in 0 ms.
+2026-11-17 15:40:22,833 [  14056]   INFO - #c.i.p.i.b.AppStarter - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------

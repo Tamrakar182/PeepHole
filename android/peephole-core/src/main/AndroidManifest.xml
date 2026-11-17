@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <!--
+          Starts the inspector automatically. To opt out, either add
+          <meta-data android:name="np.com.manjultamrakar.peephole.AUTO_INIT" android:value="false" />
+          to your <application>, or remove this provider with tools:node="remove".
+        -->
+        <provider
+            android:name="np.com.manjultamrakar.peephole.core.InspectorInitProvider"
+            android:authorities="${applicationId}.peephole-init"
+            android:exported="false"
+            android:initOrder="1000" />
+    </application>
+</manifest>
