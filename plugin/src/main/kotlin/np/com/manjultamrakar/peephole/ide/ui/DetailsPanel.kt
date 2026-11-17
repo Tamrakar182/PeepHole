@@ -3,6 +3,7 @@ package np.com.manjultamrakar.peephole.ide.ui
 import com.intellij.icons.AllIcons
 import com.intellij.openapi.actionSystem.ActionUpdateThread
 import com.intellij.openapi.actionSystem.AnActionEvent
+import com.intellij.openapi.actionSystem.ex.ActionUtil
 import com.intellij.openapi.ide.CopyPasteManager
 import com.intellij.openapi.project.DumbAwareAction
 import com.intellij.openapi.project.Project
@@ -174,13 +175,15 @@ internal class DetailsPanel(project: Project) : JPanel(CardLayout()) {
 
     private fun copyAllAction(text: String, description: String, render: (HttpEntry) -> String?) =
         object : DumbAwareAction(text, description, AllIcons.Actions.Copy) {
+            init {
+                templatePresentation.putClientProperty(ActionUtil.SHOW_TEXT_IN_TOOLBAR, true)
+            }
             override fun actionPerformed(e: AnActionEvent) {
                 shownHttp?.let(render)?.let { CopyPasteManager.getInstance().setContents(StringSelection(it)) }
             }
             override fun update(e: AnActionEvent) {
                 e.presentation.isEnabled = shownHttp?.let(render) != null
             }
-            override fun displayTextInToolbar() = true
             override fun getActionUpdateThread() = ActionUpdateThread.EDT
         }
 

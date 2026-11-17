@@ -58,6 +58,8 @@ HttpClient(CIO) { install(PeepholePlugin) }
     ]]></description>
 
     <depends>com.intellij.modules.platform</depends>
+    <!-- Android Studio, or IntelliJ IDEA with the Android plugin. -->
+    <depends>org.jetbrains.android</depends>
 
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow id="Peephole"

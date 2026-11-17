@@ -1,3 +1,4 @@
+import org.jetbrains.kotlin.gradle.dsl.JvmDefaultMode
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
@@ -20,6 +21,9 @@ java {
 kotlin {
     compilerOptions {
         jvmTarget.set(JvmTarget.JVM_21)
+        // Don't generate DefaultImpls bridges for platform interface defaults (e.g. ToolWindowFactory);
+        // the verifier flags those bridges as deprecated/experimental API usages.
+        jvmDefault.set(JvmDefaultMode.NO_COMPATIBILITY)
     }
 }
 
@@ -28,6 +32,7 @@ dependencies {
     intellijPlatform {
         // Compile against / run in the locally installed Android Studio (see `studioPath` in gradle.properties).
         local(providers.gradleProperty("studioPath").get())
+        bundledPlugin("org.jetbrains.android")
     }
     testImplementation(libs.junit)
     testImplementation(libs.kotlin.test)
@@ -51,6 +56,11 @@ intellijPlatform {
         version = project.version.toString()
         // Shown on the plugin's "What's New" tab. Add a section on top for each release.
         changeNotes = """
+            <h3>0.1.1</h3>
+            <ul>
+              <li>Declares the Android plugin as a dependency, so Marketplace lists Peephole for Android Studio and for IntelliJ IDEA with Android support.</li>
+              <li>Replaced an API scheduled for removal and removed deprecated/experimental API usages flagged by the Plugin Verifier.</li>
+            </ul>
             <h3>0.1.0 — First release</h3>
             <ul>
               <li><b>Live traffic in the IDE</b> for OkHttp (incl. Retrofit and Apollo Kotlin) and Ktor, over an adb-forwarded socket. Logcat stays clean.</li>
